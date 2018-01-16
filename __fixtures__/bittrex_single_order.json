@@ -1,0 +1,15 @@
+{
+  "id": "f559bf22-f081-47ce-a059-c4e2ebe04f32",
+  "timestamp": 1514912993903,
+  "datetime": "2018-01-02T17:09:53.903Z",
+  "symbol": "SALT/BTC",
+  "type": "limit",
+  "side": "buy",
+  "price": 0.00082882,
+  "cost": 0.00082882,
+  "amount": 10,
+  "filled": 0,
+  "remaining": 10,
+  "status": "closed",
+  "fee": { "cost": 0, "currency": "BTC" }
+}

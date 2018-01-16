@@ -1,0 +1,51 @@
+{
+  "name": "pump-it-up",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Marc Höffl <marc.hoeffl@gmail.com>",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test; jest",
+    "start": "node index.js",
+    "fetch-coins": "echo 'Not yet implemented'",
+    "lint": "eslint ."
+  },
+  "pre-commit": ["lint", "test"],
+  "dependencies": {
+    "@google-cloud/vision": "^0.14.0",
+    "blessed": "^0.1.81",
+    "cctx": "^1.0.1",
+    "ccxt": "^1.10.389",
+    "coinmarketcap-api": "^1.0.0",
+    "date-fns": "^1.29.0",
+    "dotenv": "^4.0.0",
+    "jsonfile": "^4.0.0",
+    "kucoin-api": "0.0.3",
+    "lodash": "^4.17.4",
+    "nanobus": "^4.3.1",
+    "osx-notifier": "^0.2.2",
+    "prompt-async": "^0.9.9",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "jest": "^22.0.3",
+    "nock": "^9.1.5",
+    "pre-commit": "^1.2.2"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "node": true,
+      "es6": true,
+      "jest": true
+    },
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "ecmaVersion": 8
+    }
+  }
+}

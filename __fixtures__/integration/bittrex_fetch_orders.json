@@ -1,0 +1,62 @@
+[
+  {
+    "id": "100",
+    "timestamp": 1514912993903,
+    "datetime": "2018-01-02T17:09:53.903Z",
+    "symbol": "ADX/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00026,
+    "cost": 0.00026,
+    "amount": 500,
+    "filled": 0,
+    "remaining": 500,
+    "status": "closed",
+    "fee": { "cost": 0, "currency": "BTC" }
+  },
+  {
+    "id": "100",
+    "timestamp": 1514912993903,
+    "datetime": "2018-01-02T17:09:53.903Z",
+    "symbol": "ADX/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00026,
+    "cost": 0.00026,
+    "amount": 500,
+    "filled": 200,
+    "remaining": 300,
+    "status": "closed",
+    "fee": { "cost": 0, "currency": "BTC" }
+  },
+  {
+    "id": "100",
+    "timestamp": 1514912993903,
+    "datetime": "2018-01-02T17:09:53.903Z",
+    "symbol": "ADX/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00026,
+    "cost": 0.00026,
+    "amount": 500,
+    "filled": 450,
+    "remaining": 50,
+    "status": "closed",
+    "fee": { "cost": 0, "currency": "BTC" }
+  },
+  {
+    "id": "100",
+    "timestamp": 1514912993903,
+    "datetime": "2018-01-02T17:09:53.903Z",
+    "symbol": "ADX/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00026,
+    "cost": 0.00026,
+    "amount": 500,
+    "filled": 500,
+    "remaining": 0,
+    "status": "closed",
+    "fee": { "cost": 0, "currency": "BTC" }
+  }
+]

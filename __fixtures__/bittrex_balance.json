@@ -1,0 +1,318 @@
+{
+  "info": [
+    {
+      "Currency": "ABY",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": null
+    },
+    {
+      "Currency": "ADA",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": null
+    },
+    {
+      "Currency": "ARK",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": null
+    },
+    {
+      "Currency": "BAT",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": null
+    },
+    {
+      "Currency": "BTC",
+      "Balance": 0.243519,
+      "Available": 0.243519,
+      "Pending": 0,
+      "CryptoAddress": "15QnrNXHQonaSgf8tB8dDPQPkyMzzSRt8s"
+    },
+    {
+      "Currency": "BTG",
+      "Balance": 0.00772707,
+      "Available": 0.00772707,
+      "Pending": 0,
+      "CryptoAddress": null
+    },
+    {
+      "Currency": "BURST",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": null
+    },
+    {
+      "Currency": "CRW",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": "1ckCToLxAA4j5K5gRxUs4pA3bkGerZbFu"
+    },
+    {
+      "Currency": "DGB",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": null
+    },
+    {
+      "Currency": "DNT",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": null
+    },
+    {
+      "Currency": "EDG",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": null
+    },
+    {
+      "Currency": "FUN",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": null
+    },
+    {
+      "Currency": "GRS",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": null
+    },
+    {
+      "Currency": "IOP",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": null
+    },
+    {
+      "Currency": "LBC",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": "bSWAEH5h7ubTTcJMKUbpoLCwdKDetr8UVh"
+    },
+    {
+      "Currency": "LSK",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": "9055611355256260855L"
+    },
+    {
+      "Currency": "LTC",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": null
+    },
+    {
+      "Currency": "NAV",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": null
+    },
+    {
+      "Currency": "NEO",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": null
+    },
+    {
+      "Currency": "NXC",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": null
+    },
+    {
+      "Currency": "NXS",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": null
+    },
+    {
+      "Currency": "OMG",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": "0x17003c6654e0fcd0932a0bbd0a825684be995f3f"
+    },
+    {
+      "Currency": "QTUM",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": null
+    },
+    {
+      "Currency": "SALT",
+      "Balance": 330,
+      "Available": 330,
+      "Pending": 0,
+      "CryptoAddress": null
+    },
+    {
+      "Currency": "VTC",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": null
+    },
+    {
+      "Currency": "XLM",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": null
+    },
+    {
+      "Currency": "XRP",
+      "Balance": 1262.02644746,
+      "Available": 1262.02644746,
+      "Pending": 0,
+      "CryptoAddress": "1548371808"
+    },
+    {
+      "Currency": "ZEN",
+      "Balance": 0,
+      "Available": 0,
+      "Pending": 0,
+      "CryptoAddress": "zni6sgppXEZ6Jw5MFsNcwKhN6xJ3VpuurMS"
+    }
+  ],
+  "ABY": { "free": 0, "used": 0, "total": 0 },
+  "ADA": { "free": 0, "used": 0, "total": 0 },
+  "ARK": { "free": 0, "used": 0, "total": 0 },
+  "BAT": { "free": 0, "used": 0, "total": 0 },
+  "BTC": { "free": 0.243519, "used": 0, "total": 0.243519 },
+  "BTG": { "free": 0.00772707, "used": 0, "total": 0.00772707 },
+  "BURST": { "free": 0, "used": 0, "total": 0 },
+  "CRW": { "free": 0, "used": 0, "total": 0 },
+  "DGB": { "free": 0, "used": 0, "total": 0 },
+  "DNT": { "free": 0, "used": 0, "total": 0 },
+  "EDG": { "free": 0, "used": 0, "total": 0 },
+  "FUN": { "free": 0, "used": 0, "total": 0 },
+  "GRS": { "free": 0, "used": 0, "total": 0 },
+  "IOP": { "free": 0, "used": 0, "total": 0 },
+  "LBC": { "free": 0, "used": 0, "total": 0 },
+  "LSK": { "free": 0, "used": 0, "total": 0 },
+  "LTC": { "free": 0, "used": 0, "total": 0 },
+  "NAV": { "free": 0, "used": 0, "total": 0 },
+  "NEO": { "free": 0, "used": 0, "total": 0 },
+  "NXC": { "free": 0, "used": 0, "total": 0 },
+  "NXS": { "free": 0, "used": 0, "total": 0 },
+  "OMG": { "free": 0, "used": 0, "total": 0 },
+  "QTUM": { "free": 0, "used": 0, "total": 0 },
+  "SALT": { "free": 330, "used": 0, "total": 330 },
+  "VTC": { "free": 0, "used": 0, "total": 0 },
+  "XLM": { "free": 0, "used": 0, "total": 0 },
+  "XRP": { "free": 1262.02644746, "used": 0, "total": 1262.02644746 },
+  "ZEN": { "free": 0, "used": 0, "total": 0 },
+  "free": {
+    "ABY": 0,
+    "ADA": 0,
+    "ARK": 0,
+    "BAT": 0,
+    "BTC": 0.243519,
+    "BTG": 0.00772707,
+    "BURST": 0,
+    "CRW": 0,
+    "DGB": 0,
+    "DNT": 0,
+    "EDG": 0,
+    "FUN": 0,
+    "GRS": 0,
+    "IOP": 0,
+    "LBC": 0,
+    "LSK": 0,
+    "LTC": 0,
+    "NAV": 0,
+    "NEO": 0,
+    "NXC": 0,
+    "NXS": 0,
+    "OMG": 0,
+    "QTUM": 0,
+    "SALT": 330,
+    "VTC": 0,
+    "XLM": 0,
+    "XRP": 1262.02644746,
+    "ZEN": 0
+  },
+  "used": {
+    "ABY": 0,
+    "ADA": 0,
+    "ARK": 0,
+    "BAT": 0,
+    "BTC": 0,
+    "BTG": 0,
+    "BURST": 0,
+    "CRW": 0,
+    "DGB": 0,
+    "DNT": 0,
+    "EDG": 0,
+    "FUN": 0,
+    "GRS": 0,
+    "IOP": 0,
+    "LBC": 0,
+    "LSK": 0,
+    "LTC": 0,
+    "NAV": 0,
+    "NEO": 0,
+    "NXC": 0,
+    "NXS": 0,
+    "OMG": 0,
+    "QTUM": 0,
+    "SALT": 0,
+    "VTC": 0,
+    "XLM": 0,
+    "XRP": 0,
+    "ZEN": 0
+  },
+  "total": {
+    "ABY": 0,
+    "ADA": 0,
+    "ARK": 0,
+    "BAT": 0,
+    "BTC": 0.243519,
+    "BTG": 0.00772707,
+    "BURST": 0,
+    "CRW": 0,
+    "DGB": 0,
+    "DNT": 0,
+    "EDG": 0,
+    "FUN": 0,
+    "GRS": 0,
+    "IOP": 0,
+    "LBC": 0,
+    "LSK": 0,
+    "LTC": 0,
+    "NAV": 0,
+    "NEO": 0,
+    "NXC": 0,
+    "NXS": 0,
+    "OMG": 0,
+    "QTUM": 0,
+    "SALT": 330,
+    "VTC": 0,
+    "XLM": 0,
+    "XRP": 1262.02644746,
+    "ZEN": 0
+  }
+}

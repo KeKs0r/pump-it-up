@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "12515375",
+    "info": {
+      "Id": 12515375,
+      "TimeStamp": "2018-01-02T19:27:50.143",
+      "Quantity": 76.82324772,
+      "Price": 0.00078628,
+      "Total": 0.06040458,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921270143,
+    "datetime": "2018-01-02T19:27:50.143Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078628,
+    "amount": 76.82324772
+  },
+  {
+    "id": "12515374",
+    "info": {
+      "Id": 12515374,
+      "TimeStamp": "2018-01-02T19:27:50.143",
+      "Quantity": 2.17675228,
+      "Price": 0.000785,
+      "Total": 0.00170875,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921270143,
+    "datetime": "2018-01-02T19:27:50.143Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.000785,
+    "amount": 2.17675228
+  },
+  {
+    "id": "12515371",
+    "info": {
+      "Id": 12515371,
+      "TimeStamp": "2018-01-02T19:27:48.08",
+      "Quantity": 60,
+      "Price": 0.000785,
+      "Total": 0.0471,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921268080,
+    "datetime": "2018-01-02T19:27:48.080Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.000785,
+    "amount": 60
+  },
+  {
+    "id": "12515372",
+    "info": {
+      "Id": 12515372,
+      "TimeStamp": "2018-01-02T19:27:48.08",
+      "Quantity": 175.45021823,
+      "Price": 0.00078629,
+      "Total": 0.13795475,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921268080,
+    "datetime": "2018-01-02T19:27:48.080Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078629,
+    "amount": 175.45021823
+  },
+  {
+    "id": "12515368",
+    "info": {
+      "Id": 12515368,
+      "TimeStamp": "2018-01-02T19:27:45.393",
+      "Quantity": 82.472323,
+      "Price": 0.00078629,
+      "Total": 0.06484716,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921265393,
+    "datetime": "2018-01-02T19:27:45.393Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078629,
+    "amount": 82.472323
+  },
+  {
+    "id": "12515366",
+    "info": {
+      "Id": 12515366,
+      "TimeStamp": "2018-01-02T19:27:44.783",
+      "Quantity": 4.43419652,
+      "Price": 0.00078629,
+      "Total": 0.00348656,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921264783,
+    "datetime": "2018-01-02T19:27:44.783Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078629,
+    "amount": 4.43419652
+  },
+  {
+    "id": "12515361",
+    "info": {
+      "Id": 12515361,
+      "TimeStamp": "2018-01-02T19:27:40.843",
+      "Quantity": 3.43107341,
+      "Price": 0.000785,
+      "Total": 0.00269339,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921260843,
+    "datetime": "2018-01-02T19:27:40.843Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.000785,
+    "amount": 3.43107341
+  },
+  {
+    "id": "12515360",
+    "info": {
+      "Id": 12515360,
+      "TimeStamp": "2018-01-02T19:27:38.453",
+      "Quantity": 1.90036994,
+      "Price": 0.00078629,
+      "Total": 0.00149424,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921258453,
+    "datetime": "2018-01-02T19:27:38.453Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078629,
+    "amount": 1.90036994
+  },
+  {
+    "id": "12515358",
+    "info": {
+      "Id": 12515358,
+      "TimeStamp": "2018-01-02T19:27:38.173",
+      "Quantity": 3.43107341,
+      "Price": 0.00078629,
+      "Total": 0.00269781,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921258173,
+    "datetime": "2018-01-02T19:27:38.173Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078629,
+    "amount": 3.43107341
+  },
+  {
+    "id": "12515354",
+    "info": {
+      "Id": 12515354,
+      "TimeStamp": "2018-01-02T19:27:36.86",
+      "Quantity": 3.43109485,
+      "Price": 0.00078629,
+      "Total": 0.00269783,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921256860,
+    "datetime": "2018-01-02T19:27:36.860Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078629,
+    "amount": 3.43109485
+  },
+  {
+    "id": "12515350",
+    "info": {
+      "Id": 12515350,
+      "TimeStamp": "2018-01-02T19:27:36.407",
+      "Quantity": 15,
+      "Price": 0.000785,
+      "Total": 0.011775,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921256407,
+    "datetime": "2018-01-02T19:27:36.407Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.000785,
+    "amount": 15
+  },
+  {
+    "id": "12515351",
+    "info": {
+      "Id": 12515351,
+      "TimeStamp": "2018-01-02T19:27:36.407",
+      "Quantity": 15,
+      "Price": 0.000785,
+      "Total": 0.011775,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921256407,
+    "datetime": "2018-01-02T19:27:36.407Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.000785,
+    "amount": 15
+  },
+  {
+    "id": "12515349",
+    "info": {
+      "Id": 12515349,
+      "TimeStamp": "2018-01-02T19:27:36.39",
+      "Quantity": 2,
+      "Price": 0.000785,
+      "Total": 0.00157,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921256390,
+    "datetime": "2018-01-02T19:27:36.390Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.000785,
+    "amount": 2
+  },
+  {
+    "id": "12515346",
+    "info": {
+      "Id": 12515346,
+      "TimeStamp": "2018-01-02T19:27:32.813",
+      "Quantity": 79,
+      "Price": 0.00078629,
+      "Total": 0.06211691,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921252813,
+    "datetime": "2018-01-02T19:27:32.813Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078629,
+    "amount": 79
+  },
+  {
+    "id": "12515344",
+    "info": {
+      "Id": 12515344,
+      "TimeStamp": "2018-01-02T19:27:30.873",
+      "Quantity": 38.1359164,
+      "Price": 0.00078629,
+      "Total": 0.02998588,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921250873,
+    "datetime": "2018-01-02T19:27:30.873Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078629,
+    "amount": 38.1359164
+  },
+  {
+    "id": "12515340",
+    "info": {
+      "Id": 12515340,
+      "TimeStamp": "2018-01-02T19:27:27.06",
+      "Quantity": 165.90247225,
+      "Price": 0.00078629,
+      "Total": 0.13044745,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921247060,
+    "datetime": "2018-01-02T19:27:27.060Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078629,
+    "amount": 165.90247225
+  },
+  {
+    "id": "12515335",
+    "info": {
+      "Id": 12515335,
+      "TimeStamp": "2018-01-02T19:27:25.077",
+      "Quantity": 36.54945902,
+      "Price": 0.00078638,
+      "Total": 0.02874176,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921245077,
+    "datetime": "2018-01-02T19:27:25.077Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078638,
+    "amount": 36.54945902
+  },
+  {
+    "id": "12515334",
+    "info": {
+      "Id": 12515334,
+      "TimeStamp": "2018-01-02T19:27:25.077",
+      "Quantity": 224.38572828,
+      "Price": 0.00078657,
+      "Total": 0.17649508,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921245077,
+    "datetime": "2018-01-02T19:27:25.077Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078657,
+    "amount": 224.38572828
+  },
+  {
+    "id": "12515333",
+    "info": {
+      "Id": 12515333,
+      "TimeStamp": "2018-01-02T19:27:25.077",
+      "Quantity": 81.43775091,
+      "Price": 0.00078657,
+      "Total": 0.06405649,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921245077,
+    "datetime": "2018-01-02T19:27:25.077Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078657,
+    "amount": 81.43775091
+  },
+  {
+    "id": "12515337",
+    "info": {
+      "Id": 12515337,
+      "TimeStamp": "2018-01-02T19:27:25.077",
+      "Quantity": 2.54332036,
+      "Price": 0.00078637,
+      "Total": 0.00199999,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921245077,
+    "datetime": "2018-01-02T19:27:25.077Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078637,
+    "amount": 2.54332036
+  },
+  {
+    "id": "12515336",
+    "info": {
+      "Id": 12515336,
+      "TimeStamp": "2018-01-02T19:27:25.077",
+      "Quantity": 0.7710239,
+      "Price": 0.00078638,
+      "Total": 0.00060631,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921245077,
+    "datetime": "2018-01-02T19:27:25.077Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078638,
+    "amount": 0.7710239
+  },
+  {
+    "id": "12515332",
+    "info": {
+      "Id": 12515332,
+      "TimeStamp": "2018-01-02T19:27:24.95",
+      "Quantity": 60,
+      "Price": 0.00078666,
+      "Total": 0.0471996,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921244950,
+    "datetime": "2018-01-02T19:27:24.950Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078666,
+    "amount": 60
+  },
+  {
+    "id": "12515330",
+    "info": {
+      "Id": 12515330,
+      "TimeStamp": "2018-01-02T19:27:24.86",
+      "Quantity": 1.5,
+      "Price": 0.00078666,
+      "Total": 0.00117999,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921244860,
+    "datetime": "2018-01-02T19:27:24.860Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078666,
+    "amount": 1.5
+  },
+  {
+    "id": "12515328",
+    "info": {
+      "Id": 12515328,
+      "TimeStamp": "2018-01-02T19:27:24.36",
+      "Quantity": 5.48853445,
+      "Price": 0.00078657,
+      "Total": 0.00431711,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921244360,
+    "datetime": "2018-01-02T19:27:24.360Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078657,
+    "amount": 5.48853445
+  },
+  {
+    "id": "12515325",
+    "info": {
+      "Id": 12515325,
+      "TimeStamp": "2018-01-02T19:27:20.84",
+      "Quantity": 2.53599024,
+      "Price": 0.00078666,
+      "Total": 0.00199496,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921240840,
+    "datetime": "2018-01-02T19:27:20.840Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078666,
+    "amount": 2.53599024
+  },
+  {
+    "id": "12515323",
+    "info": {
+      "Id": 12515323,
+      "TimeStamp": "2018-01-02T19:27:19.437",
+      "Quantity": 23.87886191,
+      "Price": 0.00078657,
+      "Total": 0.01878239,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921239437,
+    "datetime": "2018-01-02T19:27:19.437Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078657,
+    "amount": 23.87886191
+  },
+  {
+    "id": "12515322",
+    "info": {
+      "Id": 12515322,
+      "TimeStamp": "2018-01-02T19:27:19.2",
+      "Quantity": 33.02943676,
+      "Price": 0.00078657,
+      "Total": 0.02597996,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921239200,
+    "datetime": "2018-01-02T19:27:19.200Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078657,
+    "amount": 33.02943676
+  },
+  {
+    "id": "12515321",
+    "info": {
+      "Id": 12515321,
+      "TimeStamp": "2018-01-02T19:27:14.607",
+      "Quantity": 78,
+      "Price": 0.00078658,
+      "Total": 0.06135324,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921234607,
+    "datetime": "2018-01-02T19:27:14.607Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078658,
+    "amount": 78
+  },
+  {
+    "id": "12515316",
+    "info": {
+      "Id": 12515316,
+      "TimeStamp": "2018-01-02T19:27:10.73",
+      "Quantity": 5.04756751,
+      "Price": 0.00078657,
+      "Total": 0.00397026,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921230730,
+    "datetime": "2018-01-02T19:27:10.730Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078657,
+    "amount": 5.04756751
+  },
+  {
+    "id": "12515315",
+    "info": {
+      "Id": 12515315,
+      "TimeStamp": "2018-01-02T19:27:09.967",
+      "Quantity": 2.53382658,
+      "Price": 0.00078658,
+      "Total": 0.00199305,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921229967,
+    "datetime": "2018-01-02T19:27:09.967Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078658,
+    "amount": 2.53382658
+  },
+  {
+    "id": "12515313",
+    "info": {
+      "Id": 12515313,
+      "TimeStamp": "2018-01-02T19:27:09.573",
+      "Quantity": 1.11784846,
+      "Price": 0.00078657,
+      "Total": 0.00087926,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921229573,
+    "datetime": "2018-01-02T19:27:09.573Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078657,
+    "amount": 1.11784846
+  },
+  {
+    "id": "12515309",
+    "info": {
+      "Id": 12515309,
+      "TimeStamp": "2018-01-02T19:27:06.277",
+      "Quantity": 25.89443203,
+      "Price": 0.00078638,
+      "Total": 0.02036286,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921226277,
+    "datetime": "2018-01-02T19:27:06.277Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078638,
+    "amount": 25.89443203
+  },
+  {
+    "id": "12515308",
+    "info": {
+      "Id": 12515308,
+      "TimeStamp": "2018-01-02T19:27:05.857",
+      "Quantity": 10,
+      "Price": 0.00078658,
+      "Total": 0.0078658,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921225857,
+    "datetime": "2018-01-02T19:27:05.857Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078658,
+    "amount": 10
+  },
+  {
+    "id": "12515306",
+    "info": {
+      "Id": 12515306,
+      "TimeStamp": "2018-01-02T19:26:59.387",
+      "Quantity": 54.8078869,
+      "Price": 0.00078658,
+      "Total": 0.04311078,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921219387,
+    "datetime": "2018-01-02T19:26:59.387Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078658,
+    "amount": 54.8078869
+  },
+  {
+    "id": "12515305",
+    "info": {
+      "Id": 12515305,
+      "TimeStamp": "2018-01-02T19:26:59.387",
+      "Quantity": 23.1921131,
+      "Price": 0.00078657,
+      "Total": 0.01824222,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921219387,
+    "datetime": "2018-01-02T19:26:59.387Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078657,
+    "amount": 23.1921131
+  },
+  {
+    "id": "12515300",
+    "info": {
+      "Id": 12515300,
+      "TimeStamp": "2018-01-02T19:26:55.84",
+      "Quantity": 2.53382658,
+      "Price": 0.00078658,
+      "Total": 0.00199305,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921215840,
+    "datetime": "2018-01-02T19:26:55.840Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078658,
+    "amount": 2.53382658
+  },
+  {
+    "id": "12515298",
+    "info": {
+      "Id": 12515298,
+      "TimeStamp": "2018-01-02T19:26:55.463",
+      "Quantity": 5.77063254,
+      "Price": 0.00078638,
+      "Total": 0.00453791,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921215463,
+    "datetime": "2018-01-02T19:26:55.463Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078638,
+    "amount": 5.77063254
+  },
+  {
+    "id": "12515292",
+    "info": {
+      "Id": 12515292,
+      "TimeStamp": "2018-01-02T19:26:46.273",
+      "Quantity": 1.78843952,
+      "Price": 0.00078638,
+      "Total": 0.00140639,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921206273,
+    "datetime": "2018-01-02T19:26:46.273Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078638,
+    "amount": 1.78843952
+  },
+  {
+    "id": "12515288",
+    "info": {
+      "Id": 12515288,
+      "TimeStamp": "2018-01-02T19:26:38.587",
+      "Quantity": 2.18613379,
+      "Price": 0.00078666,
+      "Total": 0.00171974,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921198587,
+    "datetime": "2018-01-02T19:26:38.587Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078666,
+    "amount": 2.18613379
+  },
+  {
+    "id": "12515285",
+    "info": {
+      "Id": 12515285,
+      "TimeStamp": "2018-01-02T19:26:35.523",
+      "Quantity": 28.77311836,
+      "Price": 0.00078638,
+      "Total": 0.0226266,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921195523,
+    "datetime": "2018-01-02T19:26:35.523Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078638,
+    "amount": 28.77311836
+  },
+  {
+    "id": "12515281",
+    "info": {
+      "Id": 12515281,
+      "TimeStamp": "2018-01-02T19:26:32.507",
+      "Quantity": 37.53607824,
+      "Price": 0.00078638,
+      "Total": 0.02951762,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921192507,
+    "datetime": "2018-01-02T19:26:32.507Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078638,
+    "amount": 37.53607824
+  },
+  {
+    "id": "12515280",
+    "info": {
+      "Id": 12515280,
+      "TimeStamp": "2018-01-02T19:26:31.71",
+      "Quantity": 0.62926326,
+      "Price": 0.00078666,
+      "Total": 0.00049501,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921191710,
+    "datetime": "2018-01-02T19:26:31.710Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078666,
+    "amount": 0.62926326
+  },
+  {
+    "id": "12515278",
+    "info": {
+      "Id": 12515278,
+      "TimeStamp": "2018-01-02T19:26:30.68",
+      "Quantity": 78,
+      "Price": 0.00078666,
+      "Total": 0.06135948,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921190680,
+    "datetime": "2018-01-02T19:26:30.680Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078666,
+    "amount": 78
+  },
+  {
+    "id": "12515271",
+    "info": {
+      "Id": 12515271,
+      "TimeStamp": "2018-01-02T19:26:26.977",
+      "Quantity": 119.91279779,
+      "Price": 0.00078638,
+      "Total": 0.09429702,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921186977,
+    "datetime": "2018-01-02T19:26:26.977Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078638,
+    "amount": 119.91279779
+  },
+  {
+    "id": "12515270",
+    "info": {
+      "Id": 12515270,
+      "TimeStamp": "2018-01-02T19:26:26.977",
+      "Quantity": 80.08720221,
+      "Price": 0.00078638,
+      "Total": 0.06297897,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921186977,
+    "datetime": "2018-01-02T19:26:26.977Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078638,
+    "amount": 80.08720221
+  },
+  {
+    "id": "12515267",
+    "info": {
+      "Id": 12515267,
+      "TimeStamp": "2018-01-02T19:26:22.88",
+      "Quantity": 28.64384415,
+      "Price": 0.00078638,
+      "Total": 0.02252494,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921182880,
+    "datetime": "2018-01-02T19:26:22.880Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078638,
+    "amount": 28.64384415
+  },
+  {
+    "id": "12515266",
+    "info": {
+      "Id": 12515266,
+      "TimeStamp": "2018-01-02T19:26:20.757",
+      "Quantity": 13.26895364,
+      "Price": 0.00078638,
+      "Total": 0.01043443,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921180757,
+    "datetime": "2018-01-02T19:26:20.757Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078638,
+    "amount": 13.26895364
+  },
+  {
+    "id": "12515256",
+    "info": {
+      "Id": 12515256,
+      "TimeStamp": "2018-01-02T19:26:08.677",
+      "Quantity": 10.07490472,
+      "Price": 0.00078666,
+      "Total": 0.00792552,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921168677,
+    "datetime": "2018-01-02T19:26:08.677Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078666,
+    "amount": 10.07490472
+  },
+  {
+    "id": "12515253",
+    "info": {
+      "Id": 12515253,
+      "TimeStamp": "2018-01-02T19:26:07.957",
+      "Quantity": 8.68286076,
+      "Price": 0.0007893,
+      "Total": 0.00685338,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921167957,
+    "datetime": "2018-01-02T19:26:07.957Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.0007893,
+    "amount": 8.68286076
+  },
+  {
+    "id": "12515252",
+    "info": {
+      "Id": 12515252,
+      "TimeStamp": "2018-01-02T19:26:07.957",
+      "Quantity": 16.31713924,
+      "Price": 0.00078666,
+      "Total": 0.01283604,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921167957,
+    "datetime": "2018-01-02T19:26:07.957Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00078666,
+    "amount": 16.31713924
+  },
+  {
+    "id": "12515250",
+    "info": {
+      "Id": 12515250,
+      "TimeStamp": "2018-01-02T19:26:06.08",
+      "Quantity": 31.92929431,
+      "Price": 0.00078666,
+      "Total": 0.02511749,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921166080,
+    "datetime": "2018-01-02T19:26:06.080Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078666,
+    "amount": 31.92929431
+  },
+  {
+    "id": "12515247",
+    "info": {
+      "Id": 12515247,
+      "TimeStamp": "2018-01-02T19:26:01.487",
+      "Quantity": 1.07532611,
+      "Price": 0.00078666,
+      "Total": 0.00084591,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921161487,
+    "datetime": "2018-01-02T19:26:01.487Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078666,
+    "amount": 1.07532611
+  },
+  {
+    "id": "12515242",
+    "info": {
+      "Id": 12515242,
+      "TimeStamp": "2018-01-02T19:25:51.91",
+      "Quantity": 12.32265773,
+      "Price": 0.00078666,
+      "Total": 0.00969374,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921151910,
+    "datetime": "2018-01-02T19:25:51.910Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078666,
+    "amount": 12.32265773
+  },
+  {
+    "id": "12515238",
+    "info": {
+      "Id": 12515238,
+      "TimeStamp": "2018-01-02T19:25:49.8",
+      "Quantity": 58.65948311,
+      "Price": 0.00078666,
+      "Total": 0.04614506,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921149800,
+    "datetime": "2018-01-02T19:25:49.800Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078666,
+    "amount": 58.65948311
+  },
+  {
+    "id": "12515235",
+    "info": {
+      "Id": 12515235,
+      "TimeStamp": "2018-01-02T19:25:46.64",
+      "Quantity": 5.76482529,
+      "Price": 0.00079,
+      "Total": 0.00455421,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921146640,
+    "datetime": "2018-01-02T19:25:46.640Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00079,
+    "amount": 5.76482529
+  },
+  {
+    "id": "12515232",
+    "info": {
+      "Id": 12515232,
+      "TimeStamp": "2018-01-02T19:25:46.22",
+      "Quantity": 98.09888514,
+      "Price": 0.0007893,
+      "Total": 0.07742945,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921146220,
+    "datetime": "2018-01-02T19:25:46.220Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.0007893,
+    "amount": 98.09888514
+  },
+  {
+    "id": "12515231",
+    "info": {
+      "Id": 12515231,
+      "TimeStamp": "2018-01-02T19:25:45.44",
+      "Quantity": 111.77341556,
+      "Price": 0.0007893,
+      "Total": 0.08822275,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921145440,
+    "datetime": "2018-01-02T19:25:45.440Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.0007893,
+    "amount": 111.77341556
+  },
+  {
+    "id": "12515227",
+    "info": {
+      "Id": 12515227,
+      "TimeStamp": "2018-01-02T19:25:37.233",
+      "Quantity": 103.98676126,
+      "Price": 0.0007893,
+      "Total": 0.08207675,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921137233,
+    "datetime": "2018-01-02T19:25:37.233Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.0007893,
+    "amount": 103.98676126
+  },
+  {
+    "id": "12515225",
+    "info": {
+      "Id": 12515225,
+      "TimeStamp": "2018-01-02T19:25:35.063",
+      "Quantity": 30.93888464,
+      "Price": 0.00079,
+      "Total": 0.02444171,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921135063,
+    "datetime": "2018-01-02T19:25:35.063Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00079,
+    "amount": 30.93888464
+  },
+  {
+    "id": "12515223",
+    "info": {
+      "Id": 12515223,
+      "TimeStamp": "2018-01-02T19:25:32.077",
+      "Quantity": 404.11310129,
+      "Price": 0.0007893,
+      "Total": 0.31896647,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921132077,
+    "datetime": "2018-01-02T19:25:32.077Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.0007893,
+    "amount": 404.11310129
+  },
+  {
+    "id": "12515222",
+    "info": {
+      "Id": 12515222,
+      "TimeStamp": "2018-01-02T19:25:31.31",
+      "Quantity": 200,
+      "Price": 0.0007893,
+      "Total": 0.15786,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921131310,
+    "datetime": "2018-01-02T19:25:31.310Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.0007893,
+    "amount": 200
+  },
+  {
+    "id": "12515219",
+    "info": {
+      "Id": 12515219,
+      "TimeStamp": "2018-01-02T19:25:25.89",
+      "Quantity": 1.71612529,
+      "Price": 0.0007893,
+      "Total": 0.00135453,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921125890,
+    "datetime": "2018-01-02T19:25:25.890Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.0007893,
+    "amount": 1.71612529
+  },
+  {
+    "id": "12515218",
+    "info": {
+      "Id": 12515218,
+      "TimeStamp": "2018-01-02T19:25:25.577",
+      "Quantity": 8.47996608,
+      "Price": 0.00079,
+      "Total": 0.00669917,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921125577,
+    "datetime": "2018-01-02T19:25:25.577Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00079,
+    "amount": 8.47996608
+  },
+  {
+    "id": "12515216",
+    "info": {
+      "Id": 12515216,
+      "TimeStamp": "2018-01-02T19:25:20.763",
+      "Quantity": 17.0145105,
+      "Price": 0.0007893,
+      "Total": 0.01342955,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921120763,
+    "datetime": "2018-01-02T19:25:20.763Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.0007893,
+    "amount": 17.0145105
+  },
+  {
+    "id": "12515215",
+    "info": {
+      "Id": 12515215,
+      "TimeStamp": "2018-01-02T19:25:18.48",
+      "Quantity": 113.22462773,
+      "Price": 0.0007893,
+      "Total": 0.08936819,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921118480,
+    "datetime": "2018-01-02T19:25:18.480Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.0007893,
+    "amount": 113.22462773
+  },
+  {
+    "id": "12515214",
+    "info": {
+      "Id": 12515214,
+      "TimeStamp": "2018-01-02T19:25:16.7",
+      "Quantity": 124.13821842,
+      "Price": 0.00079,
+      "Total": 0.09806919,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921116700,
+    "datetime": "2018-01-02T19:25:16.700Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00079,
+    "amount": 124.13821842
+  },
+  {
+    "id": "12515212",
+    "info": {
+      "Id": 12515212,
+      "TimeStamp": "2018-01-02T19:25:08.84",
+      "Quantity": 527.70966636,
+      "Price": 0.0007893,
+      "Total": 0.41652123,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921108840,
+    "datetime": "2018-01-02T19:25:08.840Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.0007893,
+    "amount": 527.70966636
+  },
+  {
+    "id": "12515211",
+    "info": {
+      "Id": 12515211,
+      "TimeStamp": "2018-01-02T19:25:08.84",
+      "Quantity": 3,
+      "Price": 0.00078985,
+      "Total": 0.00236955,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921108840,
+    "datetime": "2018-01-02T19:25:08.840Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00078985,
+    "amount": 3
+  },
+  {
+    "id": "12515210",
+    "info": {
+      "Id": 12515210,
+      "TimeStamp": "2018-01-02T19:25:08.84",
+      "Quantity": 1.78603814,
+      "Price": 0.00079,
+      "Total": 0.00141097,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921108840,
+    "datetime": "2018-01-02T19:25:08.840Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00079,
+    "amount": 1.78603814
+  },
+  {
+    "id": "12515209",
+    "info": {
+      "Id": 12515209,
+      "TimeStamp": "2018-01-02T19:25:08.84",
+      "Quantity": 10,
+      "Price": 0.00079,
+      "Total": 0.0079,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921108840,
+    "datetime": "2018-01-02T19:25:08.840Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00079,
+    "amount": 10
+  },
+  {
+    "id": "12515208",
+    "info": {
+      "Id": 12515208,
+      "TimeStamp": "2018-01-02T19:25:08.84",
+      "Quantity": 21.75005816,
+      "Price": 0.00079,
+      "Total": 0.01718254,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921108840,
+    "datetime": "2018-01-02T19:25:08.840Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00079,
+    "amount": 21.75005816
+  },
+  {
+    "id": "12515207",
+    "info": {
+      "Id": 12515207,
+      "TimeStamp": "2018-01-02T19:25:08.26",
+      "Quantity": 1,
+      "Price": 0.00079,
+      "Total": 0.00079,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921108260,
+    "datetime": "2018-01-02T19:25:08.260Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00079,
+    "amount": 1
+  },
+  {
+    "id": "12515206",
+    "info": {
+      "Id": 12515206,
+      "TimeStamp": "2018-01-02T19:25:07.183",
+      "Quantity": 32.09080751,
+      "Price": 0.00079498,
+      "Total": 0.02551155,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921107183,
+    "datetime": "2018-01-02T19:25:07.183Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00079498,
+    "amount": 32.09080751
+  },
+  {
+    "id": "12515205",
+    "info": {
+      "Id": 12515205,
+      "TimeStamp": "2018-01-02T19:25:07.183",
+      "Quantity": 6.43855771,
+      "Price": 0.00079153,
+      "Total": 0.00509631,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921107183,
+    "datetime": "2018-01-02T19:25:07.183Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00079153,
+    "amount": 6.43855771
+  },
+  {
+    "id": "12515204",
+    "info": {
+      "Id": 12515204,
+      "TimeStamp": "2018-01-02T19:25:07.183",
+      "Quantity": 5.42329774,
+      "Price": 0.00079153,
+      "Total": 0.0042927,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921107183,
+    "datetime": "2018-01-02T19:25:07.183Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00079153,
+    "amount": 5.42329774
+  },
+  {
+    "id": "12515197",
+    "info": {
+      "Id": 12515197,
+      "TimeStamp": "2018-01-02T19:25:02.01",
+      "Quantity": 77.24994184,
+      "Price": 0.00079,
+      "Total": 0.06102745,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921102010,
+    "datetime": "2018-01-02T19:25:02.010Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00079,
+    "amount": 77.24994184
+  },
+  {
+    "id": "12515196",
+    "info": {
+      "Id": 12515196,
+      "TimeStamp": "2018-01-02T19:25:02.01",
+      "Quantity": 10,
+      "Price": 0.00079,
+      "Total": 0.0079,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921102010,
+    "datetime": "2018-01-02T19:25:02.010Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00079,
+    "amount": 10
+  },
+  {
+    "id": "12515195",
+    "info": {
+      "Id": 12515195,
+      "TimeStamp": "2018-01-02T19:25:02.01",
+      "Quantity": 8.66799141,
+      "Price": 0.00079059,
+      "Total": 0.00685282,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921102010,
+    "datetime": "2018-01-02T19:25:02.010Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00079059,
+    "amount": 8.66799141
+  },
+  {
+    "id": "12515194",
+    "info": {
+      "Id": 12515194,
+      "TimeStamp": "2018-01-02T19:25:02.01",
+      "Quantity": 9.50107387,
+      "Price": 0.00079094,
+      "Total": 0.00751477,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921102010,
+    "datetime": "2018-01-02T19:25:02.010Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00079094,
+    "amount": 9.50107387
+  },
+  {
+    "id": "12515193",
+    "info": {
+      "Id": 12515193,
+      "TimeStamp": "2018-01-02T19:25:02.01",
+      "Quantity": 6.7,
+      "Price": 0.0007912,
+      "Total": 0.00530104,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921102010,
+    "datetime": "2018-01-02T19:25:02.010Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.0007912,
+    "amount": 6.7
+  },
+  {
+    "id": "12515192",
+    "info": {
+      "Id": 12515192,
+      "TimeStamp": "2018-01-02T19:25:02.01",
+      "Quantity": 12.96977686,
+      "Price": 0.00079153,
+      "Total": 0.01026596,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921102010,
+    "datetime": "2018-01-02T19:25:02.010Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00079153,
+    "amount": 12.96977686
+  },
+  {
+    "id": "12515191",
+    "info": {
+      "Id": 12515191,
+      "TimeStamp": "2018-01-02T19:25:00.103",
+      "Quantity": 1,
+      "Price": 0.00079153,
+      "Total": 0.00079153,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921100103,
+    "datetime": "2018-01-02T19:25:00.103Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00079153,
+    "amount": 1
+  },
+  {
+    "id": "12515189",
+    "info": {
+      "Id": 12515189,
+      "TimeStamp": "2018-01-02T19:24:57.713",
+      "Quantity": 25,
+      "Price": 0.00079153,
+      "Total": 0.01978825,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921097713,
+    "datetime": "2018-01-02T19:24:57.713Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00079153,
+    "amount": 25
+  },
+  {
+    "id": "12515187",
+    "info": {
+      "Id": 12515187,
+      "TimeStamp": "2018-01-02T19:24:55.15",
+      "Quantity": 7.08036311,
+      "Price": 0.00079153,
+      "Total": 0.00560431,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921095150,
+    "datetime": "2018-01-02T19:24:55.150Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00079153,
+    "amount": 7.08036311
+  },
+  {
+    "id": "12515186",
+    "info": {
+      "Id": 12515186,
+      "TimeStamp": "2018-01-02T19:24:54.87",
+      "Quantity": 3,
+      "Price": 0.000795,
+      "Total": 0.002385,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921094870,
+    "datetime": "2018-01-02T19:24:54.870Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.000795,
+    "amount": 3
+  },
+  {
+    "id": "12515185",
+    "info": {
+      "Id": 12515185,
+      "TimeStamp": "2018-01-02T19:24:54.87",
+      "Quantity": 50,
+      "Price": 0.00079499,
+      "Total": 0.0397495,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921094870,
+    "datetime": "2018-01-02T19:24:54.870Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00079499,
+    "amount": 50
+  },
+  {
+    "id": "12515184",
+    "info": {
+      "Id": 12515184,
+      "TimeStamp": "2018-01-02T19:24:54.87",
+      "Quantity": 25,
+      "Price": 0.00079499,
+      "Total": 0.01987475,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921094870,
+    "datetime": "2018-01-02T19:24:54.870Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00079499,
+    "amount": 25
+  },
+  {
+    "id": "12515182",
+    "info": {
+      "Id": 12515182,
+      "TimeStamp": "2018-01-02T19:24:53.337",
+      "Quantity": 24.9983,
+      "Price": 0.00079153,
+      "Total": 0.0197869,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921093337,
+    "datetime": "2018-01-02T19:24:53.337Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00079153,
+    "amount": 24.9983
+  },
+  {
+    "id": "12515178",
+    "info": {
+      "Id": 12515178,
+      "TimeStamp": "2018-01-02T19:24:46.337",
+      "Quantity": 3.74271397,
+      "Price": 0.00079153,
+      "Total": 0.00296247,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921086337,
+    "datetime": "2018-01-02T19:24:46.337Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00079153,
+    "amount": 3.74271397
+  },
+  {
+    "id": "12515176",
+    "info": {
+      "Id": 12515176,
+      "TimeStamp": "2018-01-02T19:24:43.21",
+      "Quantity": 21.60738406,
+      "Price": 0.00079153,
+      "Total": 0.01710289,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921083210,
+    "datetime": "2018-01-02T19:24:43.210Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00079153,
+    "amount": 21.60738406
+  },
+  {
+    "id": "12515175",
+    "info": {
+      "Id": 12515175,
+      "TimeStamp": "2018-01-02T19:24:43.21",
+      "Quantity": 15,
+      "Price": 0.00079153,
+      "Total": 0.01187295,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921083210,
+    "datetime": "2018-01-02T19:24:43.210Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00079153,
+    "amount": 15
+  },
+  {
+    "id": "12515174",
+    "info": {
+      "Id": 12515174,
+      "TimeStamp": "2018-01-02T19:24:43.21",
+      "Quantity": 18.9032633,
+      "Price": 0.00079153,
+      "Total": 0.01496249,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921083210,
+    "datetime": "2018-01-02T19:24:43.210Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00079153,
+    "amount": 18.9032633
+  },
+  {
+    "id": "12515173",
+    "info": {
+      "Id": 12515173,
+      "TimeStamp": "2018-01-02T19:24:43.21",
+      "Quantity": 178.27412298,
+      "Price": 0.00079153,
+      "Total": 0.14110931,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921083210,
+    "datetime": "2018-01-02T19:24:43.210Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.00079153,
+    "amount": 178.27412298
+  },
+  {
+    "id": "12515168",
+    "info": {
+      "Id": 12515168,
+      "TimeStamp": "2018-01-02T19:24:35.507",
+      "Quantity": 0.99273528,
+      "Price": 0.000795,
+      "Total": 0.00078922,
+      "FillType": "FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921075507,
+    "datetime": "2018-01-02T19:24:35.507Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.000795,
+    "amount": 0.99273528
+  },
+  {
+    "id": "12515167",
+    "info": {
+      "Id": 12515167,
+      "TimeStamp": "2018-01-02T19:24:33.54",
+      "Quantity": 4.97477968,
+      "Price": 0.000795,
+      "Total": 0.00395494,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921073540,
+    "datetime": "2018-01-02T19:24:33.540Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.000795,
+    "amount": 4.97477968
+  },
+  {
+    "id": "12515164",
+    "info": {
+      "Id": 12515164,
+      "TimeStamp": "2018-01-02T19:24:32.727",
+      "Quantity": 50,
+      "Price": 0.000795,
+      "Total": 0.03975,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921072727,
+    "datetime": "2018-01-02T19:24:32.727Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.000795,
+    "amount": 50
+  },
+  {
+    "id": "12515162",
+    "info": {
+      "Id": 12515162,
+      "TimeStamp": "2018-01-02T19:24:30.74",
+      "Quantity": 77,
+      "Price": 0.00079601,
+      "Total": 0.06129277,
+      "FillType": "FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921070740,
+    "datetime": "2018-01-02T19:24:30.740Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00079601,
+    "amount": 77
+  },
+  {
+    "id": "12515159",
+    "info": {
+      "Id": 12515159,
+      "TimeStamp": "2018-01-02T19:24:28.693",
+      "Quantity": 27.05855038,
+      "Price": 0.000795,
+      "Total": 0.02151154,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921068693,
+    "datetime": "2018-01-02T19:24:28.693Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.000795,
+    "amount": 27.05855038
+  },
+  {
+    "id": "12515158",
+    "info": {
+      "Id": 12515158,
+      "TimeStamp": "2018-01-02T19:24:28.443",
+      "Quantity": 21,
+      "Price": 0.000795,
+      "Total": 0.016695,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "SELL"
+    },
+    "timestamp": 1514921068443,
+    "datetime": "2018-01-02T19:24:28.443Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "sell",
+    "price": 0.000795,
+    "amount": 21
+  },
+  {
+    "id": "12515155",
+    "info": {
+      "Id": 12515155,
+      "TimeStamp": "2018-01-02T19:24:22.647",
+      "Quantity": 28.24594787,
+      "Price": 0.00079458,
+      "Total": 0.02244366,
+      "FillType": "PARTIAL_FILL",
+      "OrderType": "BUY"
+    },
+    "timestamp": 1514921062647,
+    "datetime": "2018-01-02T19:24:22.647Z",
+    "symbol": "SALT/BTC",
+    "type": "limit",
+    "side": "buy",
+    "price": 0.00079458,
+    "amount": 28.24594787
+  }
+]
