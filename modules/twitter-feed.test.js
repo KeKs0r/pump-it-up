@@ -11,7 +11,7 @@ function _checkRelevant(tweet, called) {
 
   twitterFeed({}, em)
 
-  const clientStream = require('./lib/twitter-client').em
+  const clientStream = require('../lib/twitter-client').em
   clientStream.emit('data', tweet)
   if (called) {
     expect(spy).toHaveBeenCalled()
@@ -21,35 +21,35 @@ function _checkRelevant(tweet, called) {
 }
 
 it('Does NOT emit relevant tweet for Retweet', () => {
-  const tweet = require('./__fixtures__/tweet_retweet.json')
+  const tweet = require('../__fixtures__/tweet_retweet.json')
   _checkRelevant(tweet, false)
 })
 it('Does NOT emit relevant tweet for other user Tweets', () => {
-  const tweet = require('./__fixtures__/tweet_reply.json')
+  const tweet = require('../__fixtures__/tweet_reply.json')
   _checkRelevant(tweet, false)
 })
 
 describe('Past Scenarios', () => {
   it('BURST', () => {
-    const tweet = require('./__fixtures__/tweet_mcafee_burst.json')
+    const tweet = require('../__fixtures__/tweet_mcafee_burst.json')
     _checkRelevant(tweet, true)
   })
 
   it('DGB', () => {
-    const tweet = require('./__fixtures__/tweet_mcafee_dgb.json')
+    const tweet = require('../__fixtures__/tweet_mcafee_dgb.json')
     _checkRelevant(tweet, true)
   })
 
   it.skip('ETN', () => {
-    const tweet = require('./__fixtures__/tweet_mcafee_etn.json')
+    const tweet = require('../__fixtures__/tweet_mcafee_etn.json')
     _checkRelevant(tweet, true)
   })
   it('Facton (FCT)', () => {
-    const tweet = require('./__fixtures__/tweet_mcafee_fct.json')
+    const tweet = require('../__fixtures__/tweet_mcafee_fct.json')
     _checkRelevant(tweet, true)
   })
   it('RDD', () => {
-    const tweet = require('./__fixtures__/tweet_mcafee_rdd.json')
+    const tweet = require('../__fixtures__/tweet_mcafee_rdd.json')
     _checkRelevant(tweet, true)
   })
 })

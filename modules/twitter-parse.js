@@ -19,7 +19,7 @@ function twitterParse(state, emitter) {
             emitter.emit(PROPOSE_COIN, sym)
           })
         })
-        .catch(e => console.error(e))
+        .catch(e => emitter.emit(state.__events.ERROR, e))
     }
   }
 

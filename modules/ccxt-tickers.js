@@ -27,7 +27,11 @@ function createCCXTTicker(name) {
     state.tickers = Object.assign({}, state.tickers, o)
 
     em.on(state.__events.INIT, async () => {
-      await init(em)
+      try {
+        await init(em)
+      } catch (e) {
+        em.emit(state.__events.ERROR, e)
+      }
       periodicallyFetchTickers(state, em)
     })
     em.on(EXCHANGE_TICKERS_FETCHED, tickers => {
@@ -70,21 +74,17 @@ function createCCXTTicker(name) {
         emitter.emit(EXCHANGE_TICKERS_FETCHED, tickers)
       }
     } catch (e) {
-      console.error(e)
+      emitter.emit(state.__events.ERROR, e)
     }
     setTimeout(() => periodicallyFetchTickers(state, emitter), 1000 * 60 * 5)
   }
 
   async function init(em) {
-    try {
-      await exchange.loadMarkets()
-      const balances = await exchange.fetchBalance()
-      em.emit(EXCHANGE_BALANCES_LOADED, _.omit(balances, 'info'))
-      em.emit(CCXT_READY, name)
-      em.emit(EXCHANGE_READY)
-    } catch (e) {
-      console.error(e)
-    }
+    await exchange.loadMarkets()
+    const balances = await exchange.fetchBalance()
+    em.emit(EXCHANGE_BALANCES_LOADED, _.omit(balances, 'info'))
+    em.emit(CCXT_READY, name)
+    em.emit(EXCHANGE_READY)
   }
 
   return ccxtTicker

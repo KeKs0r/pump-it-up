@@ -15,8 +15,9 @@ async function coinPrompt(em, PROPOSE_COIN) {
   } catch (e) {
     if (e.message === 'canceled') {
       looper = false
+    } else {
+      em.emit('app:error', e)
     }
-    console.error(e.message)
   }
   looper && coinPrompt(em, PROPOSE_COIN)
 }

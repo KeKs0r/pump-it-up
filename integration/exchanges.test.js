@@ -1,7 +1,6 @@
 require('dotenv').config({ path: __dirname + '/../.env' })
-const _ = require('lodash')
 
-const { roundSatoshi } = require('./util')
+const { roundSatoshi } = require('../modules/util')
 
 jest.unmock('ccxt')
 jest.setTimeout(1000 * 15)
@@ -13,7 +12,7 @@ function testExchange(
   hasFetchTickers = true
 ) {
   describe(name, () => {
-    const clientPath = `./lib/ccxt-${name}`
+    const clientPath = `../lib/ccxt-${name}`
     const exchange = require(clientPath)
 
     const pair = `${coin}/BTC`

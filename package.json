@@ -15,8 +15,7 @@
   "dependencies": {
     "@google-cloud/vision": "^0.14.0",
     "blessed": "^0.1.81",
-    "cctx": "^1.0.1",
-    "ccxt": "^1.10.389",
+    "ccxt": "1.10.738",
     "coinmarketcap-api": "^1.0.0",
     "date-fns": "^1.29.0",
     "dotenv": "^4.0.0",
@@ -41,11 +40,11 @@
       "es6": true,
       "jest": true
     },
-    "rules": {
-      "no-console": "off"
-    },
     "parserOptions": {
       "ecmaVersion": 8
     }
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }

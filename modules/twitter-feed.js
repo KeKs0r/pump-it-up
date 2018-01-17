@@ -14,7 +14,7 @@ function isRelevant(text) {
   )
 }
 
-function twitterFeed(state, emitter) {
+function twitterFeed(state, em) {
   state.__events = Object.assign({}, state.__events, {
     RELEVANT_TWEET,
     IRRELEVANT_TWEET
@@ -29,14 +29,14 @@ function twitterFeed(state, emitter) {
     stream.on('data', function(tweet) {
       if (tweet.user.id_str === TWITTER_USER_ID) {
         if (isRelevant(tweet.text)) {
-          emitter.emit(RELEVANT_TWEET, tweet)
+          em.emit(RELEVANT_TWEET, tweet)
         } else {
-          emitter.emit(IRRELEVANT_TWEET, tweet)
+          em.emit(IRRELEVANT_TWEET, tweet)
         }
       }
     })
-    stream.on('error', function(error) {
-      console.error(error)
+    stream.on('error', function(e) {
+      em.emit(state.__events.ERROR, e)
     })
   })
 }

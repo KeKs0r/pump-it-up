@@ -87,13 +87,13 @@ describe('Parse Text', () => {
 describe('Get Image From Tweet', () => {
   it('Tron Tweet', () => {
     const image = getImageFromTweet(
-      require('./__fixtures__/tweet_mcafee_tron.json')
+      require('../__fixtures__/tweet_mcafee_tron.json')
     )
     expect(image).toBe('http://pbs.twimg.com/media/DR-kkH4XcAAQ-vc.jpg')
   })
   it('Factom Tweet', () => {
     const image = getImageFromTweet(
-      require('./__fixtures__/tweet_mcafee_fct.json')
+      require('../__fixtures__/tweet_mcafee_fct.json')
     )
     expect(image).toBe('http://pbs.twimg.com/media/DSdsmtfUMAAtWLx.jpg')
   })
@@ -132,12 +132,12 @@ describe('Twitter Parse', () => {
   }
   twitterParse(state, em)
   it('Emits Found Symbol from Text Tweet', () => {
-    const textTweet = require('./__fixtures__/tweet_mcafee_dgb.json')
+    const textTweet = require('../__fixtures__/tweet_mcafee_dgb.json')
     return expect(waitForSymbol(textTweet, state, em)).resolves.toBe('DGB')
   })
 
   it.skip('Emits Found Symbol from Image Tweet', () => {
-    const imageTweet = require('./__fixtures__/tweet_mcafee_fct.json')
+    const imageTweet = require('../__fixtures__/tweet_mcafee_fct.json')
     return expect(waitForSymbol(imageTweet, state, em)).resolves.toBe('FCT')
   })
 })

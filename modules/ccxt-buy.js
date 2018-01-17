@@ -40,7 +40,11 @@ function createCCXTBuy(name) {
     _.set(state, `open_buy.${name}`, {})
     _.set(state, `balances.${name}`, BTC_AMOUNT)
 
-    console.log('BUY_LIMIT_TRESHHOLD', ALREADY_INCREASED_TRESHHOLD)
+    em.emit(
+      state.__events.LOG,
+      'BUY_LIMIT_TRESHHOLD',
+      ALREADY_INCREASED_TRESHHOLD
+    )
 
     const balancesLoaded = state.__events.CCXT_BALANCES_LOADED + ':' + suffix
 
@@ -55,7 +59,8 @@ function createCCXTBuy(name) {
     em.on(balancesLoaded, balances => {
       const btc = balances['BTC']
       if (btc.open < BTC_AMOUNT) {
-        console.warn(
+        em.emit(
+          state.__events.WARN,
           'Lowering Buy Amount on',
           name,
           'to',
@@ -73,7 +78,13 @@ function createCCXTBuy(name) {
       const pair = `${symbol}/BTC`
       const existing = state.open_buy[name][symbol]
       if (!existing) {
-        console.warn('Did not find open order for ', symbol, 'on', name)
+        em.emit(
+          state.__events.WARN,
+          'Did not find open order for ',
+          symbol,
+          'on',
+          name
+        )
         return
       }
       const order = await exchange.fetchOrder(existing.id, pair)
@@ -92,7 +103,7 @@ function createCCXTBuy(name) {
         return
       }
     } catch (e) {
-      console.error(e)
+      em.emit(state.__events.ERROR, e)
     }
     setTimeout(() => {
       checkOrder(symbol, state, em)
@@ -103,12 +114,12 @@ function createCCXTBuy(name) {
     try {
       const pair = `${symbol}/BTC`
       if (exchange.symbols.indexOf(pair) === -1) {
-        console.warn('Could not find Pair on', name, pair)
+        em.emit(state.__events.WARN, 'Could not find Pair on', name, pair)
         return
       }
       const ticker = _findTicker(state, symbol)
       if (!ticker) {
-        console.warn('No existing Ticker for', symbol)
+        em.emit(state.__events.WARN, 'No existing Ticker for', symbol)
         return
       }
       const limitPrice = roundSatoshi(
@@ -130,10 +141,13 @@ function createCCXTBuy(name) {
         }
         em.emit(EXCHANGE_BUY_ORDER_PLACED, order)
       } else {
-        console.warn(`Order Placement on ${name} not successful`)
+        em.emit(
+          state.__events.WARN,
+          `Order Placement on ${name} not successful`
+        )
       }
     } catch (e) {
-      console.error(e)
+      em.emit(state.__events.ERROR, e)
     }
   }
 

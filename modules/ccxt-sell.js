@@ -18,7 +18,13 @@ function makeCCXTSell(name) {
       CCXT_SELL_ORDER_PLACED
     })
 
-    console.log('SELL_STEPS', SELL_STEP_1, SELL_STEP_2, SELL_STEP_3)
+    em.emit(
+      state.__events.LOG,
+      'SELL_STEPS',
+      SELL_STEP_1,
+      SELL_STEP_2,
+      SELL_STEP_3
+    )
 
     const buyOrderFilled = state.__events.CCXT_BUY_ORDER_FILLED + ':' + suffix
 
@@ -87,7 +93,7 @@ function makeCCXTSell(name) {
       em.emit(EXCHANGE_SELL_ORDER_PLACED, e2)
       em.emit(EXCHANGE_SELL_ORDER_PLACED, e3)
     } catch (e) {
-      console.error(e)
+      em.emit(state.__events.ERROR, e)
     }
   }
   return ccxtSell

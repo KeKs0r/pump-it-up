@@ -1,7 +1,7 @@
 require('dotenv').config({ path: __dirname + '/../.env' })
 const ccxtTickers = require('./ccxt-tickers')
-const ccxtBuy = require('./ccxt-buy')
-const ccxtSell = require('./ccxt-sell')
+//const ccxtBuy = require('./ccxt-buy')
+//const ccxtSell = require('./ccxt-sell')
 
 const App = require('../app')
 const app = new App()

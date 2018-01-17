@@ -1,6 +1,6 @@
-const ccxtTickers = require('./ccxt-tickers')
-const ccxtBuy = require('./ccxt-buy')
-const ccxtSell = require('./ccxt-sell')
+const ccxtTickers = require('../modules/ccxt-tickers')
+const ccxtBuy = require('../modules/ccxt-buy')
+const ccxtSell = require('../modules/ccxt-sell')
 
 const App = require('../app')
 let app
@@ -11,19 +11,19 @@ const bittrexSellSpy = jest.fn()
 const binanceBuySpy = jest.fn()
 const binanceSellSpy = jest.fn()
 
-jest.mock('./lib/twitter-client')
-jest.mock('./lib/vision-client')
-const clientStream = require('./lib/twitter-client').em
+jest.mock('../lib/twitter-client')
+jest.mock('../lib/vision-client')
+const clientStream = require('../lib/twitter-client').em
 
 beforeAll(() => {
   const ccxtMock = require('ccxt')
 
   // Bittrex MockSetup
-  const ordersCreate = require('./__fixtures__/integration/bittrex_create_orders')
-  const ordersFetch = require('./__fixtures__/integration/bittrex_fetch_orders')
+  const ordersCreate = require('../__fixtures__/integration/bittrex_create_orders')
+  const ordersFetch = require('../__fixtures__/integration/bittrex_fetch_orders')
   const bittrexResponses = {
     fetchTickers: [
-      require('./__fixtures__/integration/bittrex_fetchtickers.json')
+      require('../__fixtures__/integration/bittrex_fetchtickers.json')
     ],
     createLimitBuyOrder: ordersCreate.buy,
     createLimitSellOrder: ordersCreate.sell,
@@ -35,11 +35,11 @@ beforeAll(() => {
   ccxtMock.__setSellOrderSpy(bittrexSellSpy, 'bittrex')
 
   // Binance Mock Setup
-  const binOrdersCreate = require('./__fixtures__/integration/binance_create_orders')
-  const binOrdersFetch = require('./__fixtures__/integration/binance_fetch_orders')
+  const binOrdersCreate = require('../__fixtures__/integration/binance_create_orders')
+  const binOrdersFetch = require('../__fixtures__/integration/binance_fetch_orders')
   const binanceResponses = {
     fetchTickers: [
-      require('./__fixtures__/integration/binance_fetchtickers.json')
+      require('../__fixtures__/integration/binance_fetchtickers.json')
     ],
     createLimitBuyOrder: binOrdersCreate.buy,
     createLimitSellOrder: binOrdersCreate.sell,
@@ -51,8 +51,8 @@ beforeAll(() => {
   ccxtMock.__setSellOrderSpy(binanceSellSpy, 'binance')
 
   app = new App()
-  app.use(require('./twitter-feed'))
-  app.use(require('./twitter-parse'))
+  app.use(require('../modules/twitter-feed'))
+  app.use(require('../modules/twitter-parse'))
   app.use(ccxtTickers('bittrex'))
   app.use(ccxtBuy('bittrex'))
   app.use(ccxtSell('bittrex'))
@@ -99,7 +99,7 @@ describe('Binance Init', () => {
 })
 
 it('Irrelevant Tweet Scenario', () => {
-  const tweet = require('./__fixtures__/integration/tweet_irrelevant')
+  const tweet = require('../__fixtures__/integration/tweet_irrelevant')
   clientStream.emit('data', tweet)
 
   const e = app.state.__events.IRRELEVANT_TWEET
@@ -108,7 +108,7 @@ it('Irrelevant Tweet Scenario', () => {
 
 describe('Relevant Tweet Scenario', () => {
   beforeAll(() => {
-    const tweet = require('./__fixtures__/integration/tweet_relevant')
+    const tweet = require('../__fixtures__/integration/tweet_relevant')
     clientStream.emit('data', tweet)
   })
 
