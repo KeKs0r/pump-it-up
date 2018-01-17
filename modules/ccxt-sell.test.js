@@ -16,6 +16,9 @@ function waitForEvent(name, em) {
 const em = nanobus('test:sell_bittrex')
 const state = {
   __events: {
+    LOG: 'log',
+    WARN: 'warn',
+    ERROR: 'error',
     CCXT_BUY_ORDER_FILLED: 'CCXT:BUY_ORDER_FILLED'
   }
 }

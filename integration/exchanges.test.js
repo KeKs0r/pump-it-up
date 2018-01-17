@@ -5,6 +5,7 @@ const { roundSatoshi } = require('../modules/util')
 jest.unmock('ccxt')
 jest.setTimeout(1000 * 15)
 
+// eslint-disable-next-line no-unused-vars
 function testExchange(
   name,
   coin = 'XRP',
@@ -112,5 +113,5 @@ function testExchange(
 //testExchange('bittrex', 'XRP', 0.0005)
 //testExchange('binance', 'XRP', 0.002)
 //testExchange('yobit', 'TRX', 0.0001, false)
-testExchange('cryptopia', 'DIVX', 0.0005)
+//testExchange('cryptopia', 'DIVX', 0.0005)
 it('Placeholder')

@@ -12,6 +12,9 @@ function waitForEvent(name, em) {
 function makeInitialState() {
   return {
     __events: {
+      LOG: 'log',
+      WARN: 'warn',
+      ERROR: 'error',
       FOUND_COIN: 'FOUND_COIN',
       CCXT_BALANCES_LOADED: 'CCXT:BALANCES_LOADED'
     },
