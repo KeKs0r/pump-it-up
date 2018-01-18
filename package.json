@@ -11,13 +11,17 @@
     "fetch-coins": "echo 'Not yet implemented'",
     "lint": "eslint ."
   },
-  "pre-commit": ["lint", "test"],
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
   "dependencies": {
     "@google-cloud/vision": "^0.14.0",
     "blessed": "^0.1.81",
     "ccxt": "1.10.738",
     "coinmarketcap-api": "^1.0.0",
     "date-fns": "^1.29.0",
+    "discord.js": "^11.3.0",
     "dotenv": "^4.0.0",
     "jsonfile": "^4.0.0",
     "kucoin-api": "0.0.3",

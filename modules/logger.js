@@ -8,11 +8,6 @@ function time() {
 }
 
 function logger(state, em) {
-  // Normal Console Logs
-  em.on(state.__events.LOG, console.log)
-  em.on(state.__events.WARN, console.warn)
-  em.on(state.__events.ERROR, console.error)
-
   // Event Logs
   const exchanges = []
   const {
@@ -21,7 +16,10 @@ function logger(state, em) {
     RELEVANT_TWEET,
     BUY_ORDER_PLACED,
     BUY_ORDER_FILLED,
-    SELL_ORDER_PLACED
+    SELL_ORDER_PLACED,
+    ERROR,
+    WARN,
+    LOG
   } = state.__events
   const excluded = [
     IRRELEVANT_TWEET,
@@ -29,8 +27,18 @@ function logger(state, em) {
     RELEVANT_TWEET,
     BUY_ORDER_PLACED,
     BUY_ORDER_FILLED,
-    SELL_ORDER_PLACED
+    SELL_ORDER_PLACED,
+    ERROR,
+    WARN,
+    LOG
   ]
+
+  // Normal Console Logs
+  // @TODO Add Timestamp to logs
+  em.on(LOG, console.log)
+  em.on(WARN, console.warn)
+  em.on(ERROR, console.error)
+
   em.on(state.__events.CCXT_READY, exchange => {
     exchanges.push(exchange)
     console.log(time(), 'Registered Exchange', exchange)

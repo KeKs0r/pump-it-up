@@ -63,7 +63,8 @@ function createCCXTTicker(name) {
   }
 
   async function periodicallyFetchTickers(state, emitter) {
-    if (!exchange.hasFetchTickers) {
+    if (!exchange.has.fetchTickers) {
+      emitter.emit(state.__events.WARN, `${name} is not fetching Tickers`)
       return
     }
     // Programm

@@ -1,3 +1,4 @@
+const jsonfile = require('jsonfile')
 /**
  * Decimal adjustment of a number.
  *
@@ -47,8 +48,20 @@ function wait(time) {
   })
 }
 
+function save(name, data) {
+  const now = new Date()
+  const fileName = `${now}_${name}.json`
+  const path = __dirname + '/../data/' + fileName
+  jsonfile.writeFile(path, data, function(err) {
+    if (err) {
+      console.error(err) // eslint-disable-line no-console
+    }
+  })
+}
+
 module.exports = {
   roundSatoshi,
   roundInvest,
-  wait
+  wait,
+  save
 }
