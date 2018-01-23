@@ -37,12 +37,14 @@ function createCCXTTicker(name) {
     em.on(EXCHANGE_TICKERS_FETCHED, tickers => {
       updateTickersInState(state, tickers)
     })
-    em.on(state.__events.RELEVANT_TWEET, () => {
-      state.pause_tickers = true
-      setTimeout(() => {
-        state.pause_tickers = false
-      }, 1000 * 10)
-    })
+
+    state.__events.RELEVANT_TWEET &&
+      em.on(state.__events.RELEVANT_TWEET, () => {
+        state.pause_tickers = true
+        setTimeout(() => {
+          state.pause_tickers = false
+        }, 1000 * 10)
+      })
   }
 
   function _btcMarketFilter(symbol) {
@@ -83,8 +85,8 @@ function createCCXTTicker(name) {
   async function init(em) {
     await exchange.loadMarkets()
     const balances = await exchange.fetchBalance()
-    em.emit(EXCHANGE_BALANCES_LOADED, _.omit(balances, 'info'))
     em.emit(CCXT_READY, name)
+    em.emit(EXCHANGE_BALANCES_LOADED, _.omit(balances, 'info'))
     em.emit(EXCHANGE_READY)
   }
 

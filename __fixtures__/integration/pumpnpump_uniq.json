@@ -1,0 +1,981 @@
+[
+  {
+    "_": "messageService",
+    "flags": 24584,
+    "silent": true,
+    "post": true,
+    "id": 380,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "reply_to_msg_id": 379,
+    "date": 1516663144,
+    "action": { "_": "messageActionPinMessage" }
+  },
+  {
+    "_": "message",
+    "flags": 50304,
+    "post": true,
+    "id": 379,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516663137,
+    "message":
+      "🔵 Next HOLD Pump 🔵\n\n23st January, 04:45 pm EST TIMEZONE\n\nCountdown: goo.gl/1nUuZp\n\nExchange: Yobit.net\n\n❗IMPORTANT❗\n➕ If you don't get a mail after the registration, then register again with an other mailadress. Yobit has sometimes problems with sending mails!\nIf it says \"registration is temporarily off\" then you've problably made already an account. You have to wait some time in order to register again.\n\n🔘This will be a pump of a low-cap coin in  Yobit.net . You will want to have your BTC available in Yobit.net to buy the coin.\n\n🔘After announcing the coin here, we will all buy in as quickly as possible. It is important to buy fast, before outside investors get in.\n\n🔘Once we have bought in and the price has stabilized, it is important to HOLD and not dump on our other members. This is when we promote the coin to attract outside investment, which will cause the coin to grow more and allow all of us to sell at a nice profit.\n\n🔘We are going to HOLD up tom 10-15 minutes. After that we can sell. But NEVER sell it under the actual price, otherwise it will lead to a dump. Sell it in pieces not in bulks! \n\n\nMore announcements for the Pump will come soon. Be ready for good profits 💸💸💸",
+    "entities": [
+      { "_": "messageEntityUrl", "offset": 70, "length": 13 },
+      { "_": "messageEntityUrl", "offset": 95, "length": 9 },
+      { "_": "messageEntityUrl", "offset": 455, "length": 9 },
+      { "_": "messageEntityUrl", "offset": 511, "length": 9 }
+    ],
+    "views": 2811,
+    "edit_date": 1516663428
+  },
+  {
+    "_": "message",
+    "flags": 50176,
+    "post": true,
+    "id": 377,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516662520,
+    "message":
+      "Thanks for the votes! The majority voted for Yobit but we won't forget Cryptopia, don't worry.",
+    "views": 2808,
+    "edit_date": 1516663183
+  },
+  {
+    "_": "message",
+    "flags": 50176,
+    "post": true,
+    "id": 375,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516659192,
+    "message":
+      "❗New Strawpoll for the Exchanger! ❗\nYou decide which Exchanger we should use. Vote here!\n⏩DONE!⏪",
+    "views": 3061,
+    "edit_date": 1516662568
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 374,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516658479,
+    "message":
+      "Great job group! We were again over 1,000% but many weak hands sold early. We are planning to change the Exchanger to Cryptopia, because many are having problems with Yobit. Also we are going to change the HOLD time because too many are selling too early. Stay tuned for more infos!",
+    "views": 3256
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 373,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516657648,
+    "message": "Buy Buy Buy ❗️❗️❗️❗️❗️",
+    "views": 3243
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 372,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516657503,
+    "message":
+      "💠 Coin:\n\n-\nX\n-\nM\n-\nS\n-\n\nBuy and promote the coin in the chatbox!",
+    "views": 3304,
+    "coin": "XMS"
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 371,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516657446,
+    "message": "❗️1 minute to the HOLDPump❗️",
+    "views": 3264
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 370,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516657382,
+    "message": "❗️2 minutes to the HOLDPump❗️",
+    "views": 3236
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 369,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516657321,
+    "message": "❗️3 minutes to the HOLDPump❗️",
+    "views": 3329
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 368,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516657263,
+    "message": "❗️4 minutes to the HOLDPump❗️",
+    "views": 3235
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 367,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516657203,
+    "message": "❗️5 minutes to the HOLDPump❗️",
+    "views": 3236
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 366,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516656924,
+    "message": "❗️10 minutes to the HOLDPump❗️",
+    "views": 3215
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 365,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516656607,
+    "message": "❗️15 minutes to the HOLDPump❗️",
+    "views": 3277
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 364,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516655701,
+    "message": "❗️30 minutes to the HOLDPump❗️",
+    "views": 3356
+  },
+  {
+    "_": "message",
+    "flags": 50176,
+    "post": true,
+    "id": 363,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516654802,
+    "message": "❗️45 minutes to the HOLD Pump❗️",
+    "views": 3410,
+    "edit_date": 1516655079
+  },
+  {
+    "_": "message",
+    "flags": 50176,
+    "post": true,
+    "id": 362,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516653904,
+    "message": "❗️1 hour to the HOLD Pump!❗️",
+    "views": 3491,
+    "edit_date": 1516655070
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 361,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516652139,
+    "message":
+      "❗️1 hour and 30 minutes to the HOLD Pump!❗️\n\n➕ Make sure to have yout BTC's set. Be ready for good profits! 💸💸💸",
+    "views": 3694
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 360,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516650906,
+    "message": "❗️1 hour and 50 minutes to the HOLD Pump!❗️",
+    "views": 3691
+  },
+  {
+    "_": "message",
+    "flags": 50176,
+    "post": true,
+    "id": 359,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516643116,
+    "message": "❗️4 hours to the HOLD Pump!❗️",
+    "views": 4057,
+    "edit_date": 1516650754
+  },
+  {
+    "_": "message",
+    "flags": 50176,
+    "post": true,
+    "id": 358,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516635976,
+    "message": "❗️6 hours to the HOLD Pump!❗️",
+    "views": 4638,
+    "edit_date": 1516650589
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 356,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516630924,
+    "message":
+      "Great job group, still continue to promote the coin in the chatbox!\n\nThe usual HOLD Pump starts at 04.45 pm EST TIMEZONE.",
+    "views": 5072
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 355,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516630719,
+    "message": "Remember to sell higher than your buy-in!",
+    "views": 4997
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 354,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516630571,
+    "message": "Promote the coin everywhere!",
+    "views": 4955
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 353,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516630524,
+    "message":
+      "💠 Coin:\n\n-\nU\n-\nS\n-\nC\n-\n\nBuy promote the coin in the chatbox!",
+    "views": 4958,
+    "coin": "USC"
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 352,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516630448,
+    "message": "🔷 1 Minutes to the HOLD Mini-Pump! 🔷",
+    "views": 4806
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 351,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516630385,
+    "message": "🔷 2 Minutes to the HOLD Mini-Pump! 🔷",
+    "views": 4756
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 350,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516630326,
+    "message": "🔷 3 Minutes to the HOLD Mini-Pump! 🔷",
+    "views": 4743
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 349,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516630204,
+    "message": "🔷 5 Minutes to the HOLD Mini-Pump! 🔷",
+    "views": 4668
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 348,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516629935,
+    "message": "🔷 10 Minutes to the HOLD Mini-Pump! 🔷",
+    "views": 4637
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 347,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516629616,
+    "message": "🔷 15 Minutes to the HOLD Mini-Pump! 🔷",
+    "views": 4664
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 346,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516629050,
+    "message":
+      "🔷 25 Minutes to the HOLD Mini-Pump! 🔷\n\n➕ Sell always higher than your buy-in-price!",
+    "views": 4783
+  },
+  {
+    "_": "message",
+    "flags": 17536,
+    "post": true,
+    "id": 345,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516628726,
+    "message":
+      "🔷 30 Minutes to the HOLD Mini-Pump! 🔷\n\n➕ As soon as you bought your coins, promote the coin in the chatbox of Yobit.net . The outside investors will join and the group is going to make profits! 💸💸💸",
+    "entities": [{ "_": "messageEntityUrl", "offset": 112, "length": 9 }],
+    "views": 4923
+  },
+  {
+    "_": "message",
+    "flags": 50304,
+    "post": true,
+    "id": 343,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516628557,
+    "message":
+      "Alright! The majority voted yes!\n🔵 New HOLD Mini-Pump: 09:15 am EST TIMEZONE!\n\nExchange: Yobit.net\n\n➕Buy the coin as fast as possible. This is gonna be a mini-pump: HOLD-time only 5 minutes!\n\n🔷 33 minutes to the HOLD Mini-Pump! 🔷",
+    "entities": [{ "_": "messageEntityUrl", "offset": 90, "length": 9 }],
+    "views": 4893,
+    "edit_date": 1516628578
+  },
+  {
+    "_": "message",
+    "flags": 50176,
+    "post": true,
+    "id": 341,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516626962,
+    "message":
+      "How about a spontaneus HOLD Mini-Pump in an hour? You decide! Vote here! ⏩DONE!⏪",
+    "views": 4875,
+    "edit_date": 1516628887
+  },
+  {
+    "_": "message",
+    "flags": 50304,
+    "post": true,
+    "id": 338,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516582043,
+    "message":
+      "🔵 Next HOLD Pump 🔵\n\n22st January, 04:45 pm EST TIMEZONE\n\nCountdown: goo.gl/VQz7NE\n\nExchange: Yobit.net\n\n❗IMPORTANT❗\n➕ If you don't get a mail after the registration, then register again with an other mailadress. Yobit has sometimes problems with sending mails!\nIf it says \"registration is temporarily off\" then you've problably made already an account. You have to wait some time in order to register again.\n\n🔘This will be a pump of a low-cap coin in  Yobit.net . You will want to have your BTC available in Yobit.net to buy the coin.\n\n🔘After announcing the coin here, we will all buy in as quickly as possible. It is important to buy fast, before outside investors get in.\n\n🔘Once we have bought in and the price has stabilized, it is important to HOLD and not dump on our other members. This is when we promote the coin to attract outside investment, which will cause the coin to grow more and allow all of us to sell at a nice profit.\n\n🔘We are going to HOLD up to 10-15 minutes. After that we can sell. But NEVER sell it under the actual price, otherwise it will lead to a dump. Sell it in pieces not in bulks! \n\n\nMore announcements for the Pump will come soon. Be ready for good profits 💸💸💸",
+    "entities": [
+      { "_": "messageEntityUrl", "offset": 70, "length": 13 },
+      { "_": "messageEntityUrl", "offset": 95, "length": 9 },
+      { "_": "messageEntityUrl", "offset": 455, "length": 9 },
+      { "_": "messageEntityUrl", "offset": 511, "length": 9 }
+    ],
+    "views": 6916,
+    "edit_date": 1516584762
+  },
+  {
+    "_": "message",
+    "flags": 50176,
+    "post": true,
+    "id": 337,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516581711,
+    "message":
+      "Good job group, this pump was not that big but still good! Don't stop promoting if you have your coins still there. There are always going to be some outside investors who will buy.\n\nInfos to the next usual HOLD Pump comes soon!",
+    "views": 5981,
+    "edit_date": 1516581726
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 336,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516581491,
+    "message": "Continue to promote the coin!",
+    "views": 5508
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 335,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516581339,
+    "message": "Buy buy buy!",
+    "views": 5319
+  },
+  {
+    "_": "message",
+    "flags": 17536,
+    "post": true,
+    "id": 334,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516581305,
+    "message":
+      "💠 Coin is: OMC\n\nBUY, HOLD and promote the coin in the chatbox from Yobit.net . Sell after 5 minutes above your buy-in and enjoy your profits!",
+    "entities": [{ "_": "messageEntityUrl", "offset": 68, "length": 9 }],
+    "views": 5272,
+    "coin": "OMC"
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 333,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516581006,
+    "message": "🔷 5 minutes to the HOLD Mini-Pump! 🔷",
+    "views": 5113
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 332,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516580453,
+    "message": "🔷 15 minutes to the HOLD Mini-Pump! 🔷",
+    "views": 5056
+  },
+  {
+    "_": "message",
+    "flags": 17536,
+    "post": true,
+    "id": 331,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516580131,
+    "message":
+      "➕ HOLD Mini-Pump: It is going to last only 5 minutes. After announcing the coin, promote the coin in the chatbox on Yobit.net . The outside investors will join and they will buy it from this group. As always, buy low and sell high. Make sure to sell it in little pieced to avoid a dump! Sell it at the market-price or higher. This way it won't dump. \nBe ready for some good profits 💸💸💸",
+    "entities": [{ "_": "messageEntityUrl", "offset": 116, "length": 9 }],
+    "views": 5089
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 330,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516580111,
+    "message": "🔷 20 minutes to the HOLD Mini-Pump! 🔷",
+    "views": 4911
+  },
+  {
+    "_": "message",
+    "flags": 17536,
+    "post": true,
+    "id": 328,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516579541,
+    "message":
+      "Alright! The majority voted yes and we are going to do it again just for the fun! \n🔵 New HOLD Mini-Pump: 07:35 pm EST TIMEZONE!\n\nExchange: Yobit.net\n\n➕Buy the coin as fast as possible. This is gonna be a mini-pump: HOLD-time only 5 minutes!\n\n🔷 30 minutes to the HOLD Mini-Pump! 🔷",
+    "entities": [{ "_": "messageEntityUrl", "offset": 140, "length": 9 }],
+    "views": 4886
+  },
+  {
+    "_": "message",
+    "flags": 50176,
+    "post": true,
+    "id": 327,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516579004,
+    "message":
+      "But don't worry, we are still going to continue our usual HOLD Pumps!\n\nBut the results really surprised us!\n\n➕ How about another HOLD Mini-Pump in 30 Min? You decide, vote here! ⏩DOME!⏪",
+    "views": 4801,
+    "edit_date": 1516579994
+  },
+  {
+    "_": "message",
+    "flags": 50176,
+    "post": true,
+    "id": 326,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516578644,
+    "message":
+      "Awesome job group! Even this Mini-Pump was unplanned, we were over 1,300%!",
+    "views": 4717,
+    "edit_date": 1516579123
+  },
+  {
+    "_": "message",
+    "flags": 17536,
+    "post": true,
+    "id": 324,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516578305,
+    "message":
+      "💠 Coin is: OBS\n\nBUY, HOLD and promote the coin in the chatbox from Yobit.net . Sell after 5 minutes above your buy-in and enjoy your profits!",
+    "entities": [{ "_": "messageEntityUrl", "offset": 68, "length": 9 }],
+    "views": 4723,
+    "coin": "OBS"
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 323,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516578241,
+    "message": "🔷 1 minutes to the HOLD Mini-Pump! 🔷",
+    "views": 4643
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 322,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516578182,
+    "message": "🔷 2 minutes to the HOLD Mini-Pump! 🔷",
+    "views": 4602
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 321,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516578122,
+    "message": "🔷 3 minutes to the HOLD Mini-Pump! 🔷",
+    "views": 4565
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 320,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516578062,
+    "message": "🔷 4 minutes to the HOLD Mini-Pump! 🔷",
+    "views": 4526
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 318,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516577945,
+    "message": "🔷 6 minutes to the HOLD Mini-Pump! 🔷",
+    "views": 4450
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 317,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516577886,
+    "message": "🔷 7 minutes to the HOLD Mini-Pump! 🔷",
+    "views": 4443
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 316,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516577825,
+    "message": "🔷 8 minutes to the HOLD Mini-Pump! 🔷",
+    "views": 4466
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 315,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516577771,
+    "message": "🔷 9 minutes to the HOLD Mini-Pump! 🔷",
+    "views": 4467
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 314,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516577702,
+    "message": "🔷 10 minutes to the HOLD Mini-Pump! 🔷",
+    "views": 4475
+  },
+  {
+    "_": "message",
+    "flags": 50304,
+    "post": true,
+    "id": 311,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516576898,
+    "message":
+      "➕ HOLD Mini-Pump: It is going to last only 5-10 minutes. After announcing the coin, promote the coin in the chatbox on Yobit.net . The outside investors will join and they will buy it from this group. As always, buy low and sell high. Make sure to sell it in little pieced to avoid a dump! Sell it at the market-price or higher. This way it won't dump. \nBe ready for some good profits 💸💸💸",
+    "entities": [{ "_": "messageEntityUrl", "offset": 119, "length": 9 }],
+    "views": 4644,
+    "edit_date": 1516576903
+  },
+  {
+    "_": "message",
+    "flags": 50176,
+    "post": true,
+    "id": 310,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516576503,
+    "message": "🔷 30 minutes to the HOLD Mini-Pump! 🔷",
+    "views": 4643,
+    "edit_date": 1516576630
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 309,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516575907,
+    "message": "🔷 40 Minutes to the HOLD Mini-Pump! 🔷",
+    "views": 4718
+  },
+  {
+    "_": "message",
+    "flags": 50304,
+    "post": true,
+    "id": 307,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516575004,
+    "message":
+      "Alright! The majority voted yes! \n🔵 New HOLD Mini-Pump: 06:45 pm EST TIMEZONE!\n\nExchange: Yobit.net\n\n➕Buy the coin as fast as possible. This is gonna be a mini-pump: HOLD-time only 5-10 minutes!\n\n🔷 55 minutes to the HOLD Mini-Pump! 🔷",
+    "entities": [{ "_": "messageEntityUrl", "offset": 91, "length": 9 }],
+    "views": 4850,
+    "edit_date": 1516575099
+  },
+  {
+    "_": "message",
+    "flags": 50176,
+    "post": true,
+    "id": 306,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516574508,
+    "message": "Should we start another Pump? Vote here! ⏩DONE!⏪",
+    "views": 4850,
+    "edit_date": 1516575589
+  },
+  {
+    "_": "message",
+    "flags": 50176,
+    "post": true,
+    "id": 305,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516572086,
+    "message":
+      "We were again over 1,000% that was really good, but some of you have to stop selling it too early, we could achieve easily 2,000%",
+    "views": 5040,
+    "edit_date": 1516572122
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 304,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516571734,
+    "message": "Everyone who sold it too early, leave this channel!",
+    "views": 5054
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 303,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516571710,
+    "message": "This is how you loose money if you sell it too soon!",
+    "views": 5033
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 302,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516571392,
+    "message": "Lets pump it up again!",
+    "views": 5090
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 301,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516571379,
+    "message": "Buy in perfect price still!",
+    "views": 5057
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 300,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516571357,
+    "message": "Sell above the current price!",
+    "views": 4997
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 299,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516571129,
+    "message": "Buy buy buy and HOLD!",
+    "views": 5061
+  },
+  {
+    "_": "message",
+    "flags": 17536,
+    "post": true,
+    "id": 298,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516571104,
+    "message": "Coin is in the link!\ngoo.gl/cjxksb\n\n➕ BUY AND HOLD!",
+    "entities": [{ "_": "messageEntityUrl", "offset": 21, "length": 13 }],
+    "views": 5215,
+    "coin": "ZMC"
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 297,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516571043,
+    "message": "🔷 1 minutes to the HOLD Pump! 🔷",
+    "views": 5056
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 296,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516570989,
+    "message": "🔷 2 minutes to the HOLD Pump! 🔷",
+    "views": 5060
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 295,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516570963,
+    "message": "🔷 3 minutes to the HOLD Pump! 🔷",
+    "views": 5053
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 294,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516570878,
+    "message": "🔷 4 minutes to the HOLD Pump! 🔷",
+    "views": 5087
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 293,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516570810,
+    "message": "🔷 5minutes to the HOLD Pump! 🔷",
+    "views": 5024
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 292,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516570509,
+    "message": "🔷 10 minutes to the HOLD Pump! 🔷",
+    "views": 5025
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 290,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516570239,
+    "message": "🔷 15 minutes to the HOLD Pump! 🔷",
+    "views": 5083
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 289,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516569355,
+    "message": "🔷 30 minutes to the HOLD Pump! 🔷",
+    "views": 5126
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 288,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516567612,
+    "message":
+      "➕ In 59 Minutes we are going to buy in and HOLD for up to 15-20 minutes. In that time we spread the coin everywhere and the outside investors are going to join. Sell ABOVE the market-price and in small pieces and not in bulks otherwise the coin will dump. We are not a pump and dump group, we only want to pump and get profits for everyone in the group. 💸💸💸",
+    "views": 5355
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 287,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516567552,
+    "message": "🔷 1 hour to the HOLD Pump! 🔷",
+    "views": 5265
+  },
+  {
+    "_": "message",
+    "flags": 50176,
+    "post": true,
+    "id": 286,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516566645,
+    "message":
+      "❗IMPORTANT❗\nWe have to postpone today's HOLD Pump up to 15 minutes. \nThe HOLD Pump starts at 04.45 pm EST TIMEZONE!\n\n🔷 1 hour and 15 minutes to the HOLD Pump! 🔷",
+    "views": 5456,
+    "edit_date": 1516568017
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 285,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516566632,
+    "message": "🕟1 hour to the HOLD Pump! 🕟\n\nLet‘s make it rain 💸💰💵💶💷",
+    "views": 5486
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 284,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516563014,
+    "message": "🕟2 hours to the HOLD Pump!🕟",
+    "views": 5650
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 283,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516559407,
+    "message": "🕟3 hours to the HOLD Pump!🕟",
+    "views": 6071
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 282,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516555808,
+    "message": "🕟4 hours to the HOLD Pump!🕟",
+    "views": 5922
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 281,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516548743,
+    "message": "🕟6 hours to the HOLD Pump!🕟",
+    "views": 6253
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 280,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516541669,
+    "message": "🕟8hours to the HOLD Pump!🕟",
+    "views": 6612
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 279,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516534502,
+    "message": "🕟10hours to the HOLD Pump!🕟",
+    "views": 6945
+  },
+  {
+    "_": "message",
+    "flags": 50304,
+    "post": true,
+    "id": 277,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516485167,
+    "message":
+      "🔵 Next HOLD Pump 🔵\n\n21st January, 04:45 pm EST TIMEZONE\n\n\nExchange: Yobit.net\n\n❗IMPORTANT❗\n➕ If you don't get a mail after the registration, then register again with an other mailadress. Yobit has sometimes problems with sending mails!\nIf it says \"registration is temporarily off\" then you've problably made already an account. You have to wait some time in order to register again.\n\n🔘This will be a pump of a low-cap coin in  Yobit.net . You will want to have your BTC available in Yobit.net to buy the coin.\n\n🔘After announcing the coin here, we will all buy in as quickly as possible. It is important to buy fast, before outside investors get in.\n\n🔘Once we have bought in and the price has stabilized, it is important to HOLD and not dump on our other members. This is when we promote the coin to attract outside investment, which will cause the coin to grow more and allow all of us to sell at a nice profit.\n\n🔘We are going to HOLD up to 20 min. After that we can sell. But NEVER sell it under the actual price, otherwise it will lead to a dump. Sell it in pieces not in bulks! \n\n\nMore announcements for the Pump will come soon. Be ready for good profits 💸💸💸",
+    "entities": [
+      { "_": "messageEntityUrl", "offset": 70, "length": 9 },
+      { "_": "messageEntityUrl", "offset": 430, "length": 9 },
+      { "_": "messageEntityUrl", "offset": 486, "length": 9 }
+    ],
+    "views": 10060,
+    "edit_date": 1516568038
+  },
+  {
+    "_": "message",
+    "flags": 17408,
+    "post": true,
+    "id": 276,
+    "to_id": { "_": "peerChannel", "channel_id": 1399647465 },
+    "date": 1516485076,
+    "message":
+      "Great job group, we were again over 1,000%! Continue to promote the coin! Did you see what happens when some sell it under the current market price? It dumps! Everyone who sold it under the market price pls LEAVE this channel! This is a pump and HOLD group. Not a pump and dump group! Go to a pump and dump group! We are going to reduce the HOLD time to 20 minutes for better profits for the group. More infos for the next pump will come soon!",
+    "views": 8327
+  }
+]

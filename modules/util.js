@@ -48,10 +48,10 @@ function wait(time) {
   })
 }
 
-function save(name, data) {
+function save(name, data, absolute) {
   const now = new Date()
   const fileName = `${now}_${name}.json`
-  const path = __dirname + '/../data/' + fileName
+  const path = absolute ? name : __dirname + '/../data/' + fileName
   jsonfile.writeFile(path, data, function(err) {
     if (err) {
       console.error(err) // eslint-disable-line no-console
