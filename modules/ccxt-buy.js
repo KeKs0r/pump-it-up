@@ -2,6 +2,9 @@ const exchanges = require('../lib/ccxt')
 const _ = require('lodash')
 const { roundSatoshi, roundInvest } = require('./util')
 
+const CCXT_BUY_ORDER_PLACED = 'CCXT:BUY_ORDER_PLACED'
+const CCXT_BUY_ORDER_FILLED = 'CCXT:BUY_ORDER_FILLED'
+
 function createCCXTBuy(name) {
   const exchange = exchanges[name]
   const suffix = _.upperCase(name)
@@ -11,9 +14,6 @@ function createCCXTBuy(name) {
 
   const increased_var = 'BUY_LIMIT_TRESHHOLD'
   const ALREADY_INCREASED_TRESHHOLD = process.env[increased_var] || 1.3
-
-  const CCXT_BUY_ORDER_PLACED = 'CCXT:BUY_ORDER_PLACED'
-  const CCXT_BUY_ORDER_FILLED = 'CCXT:BUY_ORDER_FILLED'
 
   const EXCHANGE_BUY_ORDER_PLACED = CCXT_BUY_ORDER_PLACED + ':' + suffix
   const EXCHANGE_BUY_ORDER_FILLED = CCXT_BUY_ORDER_FILLED + ':' + suffix
@@ -153,5 +153,8 @@ function createCCXTBuy(name) {
 
   return ccxtBuy
 }
+
+createCCXTBuy.CCXT_BUY_ORDER_PLACED = CCXT_BUY_ORDER_PLACED
+createCCXTBuy.CCXT_BUY_ORDER_FILLED = CCXT_BUY_ORDER_FILLED
 
 module.exports = createCCXTBuy

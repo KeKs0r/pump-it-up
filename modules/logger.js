@@ -7,21 +7,18 @@ function time() {
   return `${now.getHours()}:${now.getMinutes()}:${now.getMilliseconds()}`
 }
 
+const { IRRELEVANT_TWEET, RELEVANT_TWEET } = require('./twitter-feed')
+const { FOUND_COIN } = require('./twitter-parse')
+const { BUY_ORDER_PLACED, BUY_ORDER_FILLED } = require('./ccxt-buy')
+const { SELL_ORDER_PLACED } = require('./ccxt-sell')
+const { CCXT_BALANCES_LOADED } = require('./ccxt-tickers')
+
 function logger(state, em) {
   // Event Logs
   const exchanges = []
   let excluded = []
   const { ERROR, WARN, LOG } = state.__events
   em.once(state.__events.INIT, () => {
-    const {
-      IRRELEVANT_TWEET,
-      FOUND_COIN,
-      RELEVANT_TWEET,
-      BUY_ORDER_PLACED,
-      BUY_ORDER_FILLED,
-      SELL_ORDER_PLACED,
-      CCXT_BALANCES_LOADED
-    } = state.__events
     excluded = [
       IRRELEVANT_TWEET,
       FOUND_COIN,
@@ -47,6 +44,7 @@ function logger(state, em) {
 
       const EXCHANGE_BUY_ORDER_PLACED =
         BUY_ORDER_PLACED + ':' + _.upperCase(exchange)
+      console.log('Listening to:', EXCHANGE_BUY_ORDER_PLACED)
       em.on(EXCHANGE_BUY_ORDER_PLACED, info => {
         console.log(
           time(),

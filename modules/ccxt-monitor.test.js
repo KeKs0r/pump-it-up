@@ -5,7 +5,7 @@ function mockFunctions() {
 }
 jest.mock('./util.js', () => mockFunctions())
 
-const ccxtBuy = require('./ccxt-orderbook')('bittrex')
+const ccxtMonitor = require('./ccxt-monitor')('bittrex')
 const nanobus = require('nanobus')
 
 function makeInitialState() {
@@ -31,7 +31,7 @@ function makeInitialState() {
 describe('Save Orderbook', () => {
   const em = nanobus('test:bittrex_orderbook')
   const state = makeInitialState()
-  ccxtBuy(state, em)
+  ccxtMonitor(state, em)
 
   it('Buys Coin on Bittrex', async () => {
     const util = require('./util')
@@ -41,7 +41,7 @@ describe('Save Orderbook', () => {
 
     expect(util.save).toHaveBeenCalledTimes(1)
     expect(util.save).toHaveBeenCalledWith(
-      'orderbook_bittrex',
+      'bittrex_orderbook',
       expect.anything()
     )
   })

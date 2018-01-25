@@ -75,6 +75,13 @@ describe('Capital', () => {
     expect(pot).toContain('ETN')
     expect(pot).toHaveLength(1)
   })
+
+  it('Pumpers Format', () => {
+    const t = `Coin name: 💎 LDC 💎 \n\nExchange: Cryptopia 📊 \n\nThe link: https://www.cryptopia.co.nz/Exchange/?market=LDC_BTC`
+    const r = parseText(t)
+    expect(r).toContain('LDC')
+    expect(r).toHaveLength(1)
+  })
 })
 
 describe('Single Letters', () => {

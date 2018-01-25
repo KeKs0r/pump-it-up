@@ -1,10 +1,12 @@
 const currencies = require('../../currency_list.json')
+const symbols = require('../../exchange_symbols.json')
 //const visionClient = require('../lib/vision-client')
 const _ = require('lodash')
 const parseText = require('./parse-text')
 
 async function parse(text) {
   const textResult = parseText(text)
+  console.log(textResult)
   const exists = _.filter(textResult, findSymbol)
   if (_.size(exists) > 0) {
     return exists
@@ -13,6 +15,9 @@ async function parse(text) {
 
 function findSymbol(sym) {
   const lowerSym = _.lowerCase(sym)
+  if (symbols.indexOf(sym) > -1) {
+    return sym
+  }
   const found = currencies.find(curr => {
     return (
       _.lowerCase(curr.symbol) === lowerSym ||

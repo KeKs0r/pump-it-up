@@ -2,11 +2,12 @@ const exchanges = require('../lib/ccxt')
 const _ = require('lodash')
 const { roundSatoshi, wait } = require('./util')
 
+const CCXT_SELL_ORDER_PLACED = 'CCXT:SELL_ORDER_PLACED'
+
 function makeCCXTSell(name) {
   const exchange = exchanges[name]
   const suffix = _.upperCase(name)
 
-  const CCXT_SELL_ORDER_PLACED = 'CCXT:SELL_ORDER_PLACED'
   const EXCHANGE_SELL_ORDER_PLACED = CCXT_SELL_ORDER_PLACED + ':' + suffix
 
   const SELL_STEP_1 = process.env['SELL_STEP_1'] || 1.2
@@ -98,4 +99,7 @@ function makeCCXTSell(name) {
   }
   return ccxtSell
 }
+
+makeCCXTSell.CCXT_SELL_ORDER_PLACED = CCXT_SELL_ORDER_PLACED
+
 module.exports = makeCCXTSell

@@ -11,12 +11,12 @@ function createCCXTOrderBook(name) {
       saveTicker(symbol, state, em)
       saveTrades(symbol, state, em)
 
-      _.forEach(_.range(1, 30), num => {
+      _.forEach(_.range(1, 10), num => {
         setTimeout(() => {
           saveOrderBook(symbol, state, em)
           saveTicker(symbol, state, em)
           saveTrades(symbol, state, em)
-        }, 1000 * num)
+        }, 3000 * num)
       })
     })
   }

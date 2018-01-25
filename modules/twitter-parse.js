@@ -1,8 +1,9 @@
 const _ = require('lodash')
-const FOUND_COIN = 'PARSE:FOUND_COIN'
-const PROPOSE_COIN = 'PARSE:PROPOSE_COIN'
 const currencies = require('../currency_list.json')
 const visionClient = require('../lib/vision-client')
+
+const FOUND_COIN = 'PARSE:FOUND_COIN'
+const PROPOSE_COIN = 'PARSE:PROPOSE_COIN'
 
 function twitterParse(state, emitter) {
   state.__events = Object.assign({}, state.__events, {
@@ -104,4 +105,8 @@ async function parseImage(image) {
 twitterParse.parseText = parseText
 twitterParse.parseImage = parseImage
 twitterParse.getImageFromTweet = getImageFromTweet
+
+twitterParse.FOUND_COIN = FOUND_COIN
+twitterParse.PROPOSE_COIN = PROPOSE_COIN
+
 module.exports = twitterParse

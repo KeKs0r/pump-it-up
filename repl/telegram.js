@@ -3,7 +3,18 @@ const client = require('../lib/telegram-client')
 
 client.connect(connection => {
   connection.on('message', message => {
-    console.log('message:', message)
+    if (message.from.peer_id === 63678451) {
+      console.log('message:', message)
+      message
+        .getImage()
+        .then(d => {
+          const pathToImage = d.result
+          console.log(d)
+        })
+        .catch(e => {
+          console.error(e)
+        })
+    }
   })
 
   connection.on('error', e => {

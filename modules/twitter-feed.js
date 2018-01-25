@@ -42,5 +42,7 @@ function twitterFeed(state, em) {
 }
 
 twitterFeed.isRelevant = isRelevant
+twitterFeed.RELEVANT_TWEET = RELEVANT_TWEET
+twitterFeed.IRRELEVANT_TWEET = IRRELEVANT_TWEET
 
 module.exports = twitterFeed

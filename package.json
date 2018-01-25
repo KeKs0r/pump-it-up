@@ -9,18 +9,19 @@
     "test": "NODE_ENV=test; jest",
     "start": "node index.js",
     "fetch-coins": "node scripts/download-currencies.js",
+    "log-telegram": "node scripts/log-telegram.js",
     "lint": "eslint ."
   },
   "pre-commit": ["lint", "test"],
   "dependencies": {
     "@google-cloud/vision": "^0.14.0",
+    "apjson": "^1.0.6",
     "async-promises": "^0.2.1",
     "blessed": "^0.1.81",
     "bluebird": "^3.5.1",
     "ccxt": "1.10.738",
     "coinmarketcap-api": "^1.0.0",
     "date-fns": "^1.29.0",
-    "discord.js": "^11.3.0",
     "dotenv": "^4.0.0",
     "jsonfile": "^4.0.0",
     "kucoin-api": "0.0.3",
@@ -29,7 +30,7 @@
     "node-fetch": "^2.0.0-alpha.9",
     "osx-notifier": "^0.2.2",
     "prompt-async": "^0.9.9",
-    "tg-cli-node": "0.0.8",
+    "tg-cli-node": "KeKs0r/tg-cli-node",
     "twitter": "^1.7.1"
   },
   "devDependencies": {

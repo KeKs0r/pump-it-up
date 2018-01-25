@@ -1,4 +1,4 @@
-const messages = require('../__fixtures__/integration/pumpnpump_uniq.json')
+const messages = require('../__fixtures__/telegram/pumpnpump.json')
 const _ = require('lodash')
 const { parse } = require('../modules/parse')
 

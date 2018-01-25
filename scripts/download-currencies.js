@@ -11,10 +11,10 @@ _.forEach(exchanges, e => {
   app.use(ccxtTickers(e))
 })
 
-// if (process.env.NODE_ENV !== 'test') {
-//   // Dont Log while running tests
-//   app.use(require('../modules/logger'))
-// }
+if (process.env.NODE_ENV !== 'test') {
+  // Dont Log while running tests
+  app.use(require('../modules/logger'))
+}
 
 let symbols = []
 let counter = 0
