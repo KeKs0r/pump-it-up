@@ -1,3 +1,11 @@
+# Git Management
+
+To update the application:
+
+```
+git pull
+```
+
 ## Application
 
 A single application is a combination of modules and their configuration. Examples are `index.js` and `mcafee.js`.
@@ -68,6 +76,8 @@ app.use(ccxtOrderBook('binance'))
 ```
 
 It makes sense to generate an dedicated application file per channel, since certain channels (PnD) groups, are only active on a specific exchange. Therefore we only want dedicated combinations of channels and exchanges.
+
+One example for this is the `pump-crypto-pushers.js` which combines the pump crypto telegram channel with only cryptopia, since their pumps were during the time only on this exchange.
 
 ### Application Environment (.env)
 

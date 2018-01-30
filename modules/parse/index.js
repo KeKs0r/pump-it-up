@@ -6,7 +6,7 @@ const parseText = require('./parse-text')
 
 async function parse(text) {
   const textResult = parseText(text)
-  console.log(textResult)
+  //console.log(textResult)
   const exists = _.filter(textResult, findSymbol)
   if (_.size(exists) > 0) {
     return exists

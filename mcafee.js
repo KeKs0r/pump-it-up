@@ -18,7 +18,6 @@ app.use(ccxtTickers('bittrex'))
 app.use(ccxtBuy('bittrex'))
 app.use(ccxtSell('bittrex'))
 
-/*
 app.use(ccxtTickers('binance'))
 app.use(ccxtBuy('binance'))
 app.use(ccxtSell('binance'))
@@ -27,11 +26,9 @@ app.use(ccxtTickers('kucoin'))
 app.use(ccxtBuy('kucoin'))
 app.use(ccxtSell('kucoin'))
 
-
 app.use(ccxtTickers('yobit'))
 app.use(ccxtBuy('yobit'))
 app.use(ccxtSell('yobit'))
-*/
 
 app.use(require('./modules/manual-entry'))
 

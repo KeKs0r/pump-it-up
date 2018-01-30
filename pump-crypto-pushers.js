@@ -26,6 +26,7 @@ app.use(ccxtBuy('kucoin'))
 app.use(ccxtSell('kucoin'))
 app.use(ccxtOrderBook('kucoin'))
 */
+
 app.use(ccxtTickers('cryptopia'))
 app.use(ccxtBuy('cryptopia'))
 app.use(ccxtSell('cryptopia'))

@@ -2,7 +2,7 @@ require('dotenv').config()
 const ccxtTickers = require('./modules/ccxt-tickers')
 const ccxtBuy = require('./modules/ccxt-buy')
 const ccxtSell = require('./modules/ccxt-sell')
-const ccxtMonitor = require('./modules/ccxt-monitor')
+//const ccxtMonitor = require('./modules/ccxt-monitor')
 
 const App = require('./app')
 const app = new App()

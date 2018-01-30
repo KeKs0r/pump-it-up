@@ -9,7 +9,7 @@ client.connect(connection => {
         .getImage()
         .then(d => {
           const pathToImage = d.result
-          console.log(d)
+          console.log(pathToImage)
         })
         .catch(e => {
           console.error(e)

@@ -7,7 +7,7 @@ function matchPastebin(text) {
 }
 
 async function fetchPastebin(url) {
-  const [domain, id] = url.split('/')
+  const [, id] = url.split('/')
   const rawUrl = `http://pastebin.com/raw/${id}`
   const content = await fetch(rawUrl)
   return content.text()
@@ -19,7 +19,7 @@ function matchHastebin(text) {
 }
 
 async function fetchHastebin(url) {
-  const [domain, id] = url.split('/')
+  const [, id] = url.split('/')
   const rawUrl = `http://hastebin.com/raw/${id}`
   const content = await fetch(rawUrl, {
     headers: { 'Content-Type': 'text/plain', Accept: 'text/plain' }
