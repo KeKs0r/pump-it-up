@@ -2,15 +2,9 @@ const _ = require('lodash')
 const currencies = require('../currency_list.json')
 const visionClient = require('../lib/vision-client')
 
-const FOUND_COIN = 'PARSE:FOUND_COIN'
-const PROPOSE_COIN = 'PARSE:PROPOSE_COIN'
+const { PROPOSE_COIN, FOUND_COIN } = require('./propose-coin.js')
 
 function twitterParse(state, emitter) {
-  state.__events = Object.assign({}, state.__events, {
-    FOUND_COIN,
-    PROPOSE_COIN
-  })
-
   function onTweetParseImage(tweet) {
     const image = getImageFromTweet(tweet)
     if (image) {
@@ -23,15 +17,6 @@ function twitterParse(state, emitter) {
         .catch(e => emitter.emit(state.__events.ERROR, e))
     }
   }
-
-  emitter.on(state.__events.FOUND_COIN, sym => {
-    state.found_coin = sym
-  })
-  emitter.on(state.__events.PROPOSE_COIN, sym => {
-    if (state.found_coin !== sym) {
-      emitter.emit(FOUND_COIN, sym)
-    }
-  })
 
   emitter.on(state.__events.RELEVANT_TWEET, tweet => {
     const symbols = parseText(tweet.text)

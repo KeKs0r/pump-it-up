@@ -8,10 +8,10 @@ function time() {
 }
 
 const { IRRELEVANT_TWEET, RELEVANT_TWEET } = require('./twitter-feed')
-const { FOUND_COIN } = require('./twitter-parse')
-const { BUY_ORDER_PLACED, BUY_ORDER_FILLED } = require('./ccxt-buy')
-const { SELL_ORDER_PLACED } = require('./ccxt-sell')
-const { CCXT_BALANCES_LOADED } = require('./ccxt-tickers')
+const { FOUND_COIN } = require('./propose-coin')
+const { CCXT_BUY_ORDER_PLACED, CCXT_BUY_ORDER_FILLED } = require('./ccxt-buy')
+const { CCXT_SELL_ORDER_PLACED } = require('./ccxt-sell')
+const { CCXT_READY, CCXT_BALANCES_LOADED } = require('./ccxt-tickers')
 
 function logger(state, em) {
   // Event Logs
@@ -23,28 +23,28 @@ function logger(state, em) {
       IRRELEVANT_TWEET,
       FOUND_COIN,
       RELEVANT_TWEET,
-      BUY_ORDER_PLACED,
-      BUY_ORDER_FILLED,
-      SELL_ORDER_PLACED,
       CCXT_BALANCES_LOADED,
       ERROR,
       WARN,
       LOG
     ]
 
-    em.on(state.__events.CCXT_READY, exchange => {
+    em.on(CCXT_READY, exchange => {
       exchanges.push(exchange)
       console.log(time(), 'Registered Exchange', exchange)
 
       const EXCHANGE_BALANCES_LOADED =
         CCXT_BALANCES_LOADED + ':' + _.upperCase(exchange)
+
+      excluded.push(EXCHANGE_BALANCES_LOADED)
       em.on(EXCHANGE_BALANCES_LOADED, bal => {
         console.log(time(), exchange, 'BTC Balance:', bal['BTC'])
       })
 
       const EXCHANGE_BUY_ORDER_PLACED =
-        BUY_ORDER_PLACED + ':' + _.upperCase(exchange)
-      console.log('Listening to:', EXCHANGE_BUY_ORDER_PLACED)
+        CCXT_BUY_ORDER_PLACED + ':' + _.upperCase(exchange)
+
+      excluded.push(EXCHANGE_BUY_ORDER_PLACED)
       em.on(EXCHANGE_BUY_ORDER_PLACED, info => {
         console.log(
           time(),
@@ -58,7 +58,9 @@ function logger(state, em) {
       })
 
       const EXCHANGE_BUY_ORDER_FILLED =
-        BUY_ORDER_FILLED + ':' + _.upperCase(exchange)
+        CCXT_BUY_ORDER_FILLED + ':' + _.upperCase(exchange)
+
+      excluded.push(EXCHANGE_BUY_ORDER_FILLED)
       em.on(EXCHANGE_BUY_ORDER_FILLED, e => {
         console.log(
           time(),
@@ -73,8 +75,9 @@ function logger(state, em) {
       })
 
       const EXCHANGE_SELL_ORDER_PALCED =
-        SELL_ORDER_PLACED + ':' + _.upperCase(exchange)
+        CCXT_SELL_ORDER_PLACED + ':' + _.upperCase(exchange)
 
+      excluded.push(EXCHANGE_SELL_ORDER_PALCED)
       em.on(EXCHANGE_SELL_ORDER_PALCED, info => {
         console.log(
           time(),

@@ -53,6 +53,7 @@ beforeAll(() => {
   app = new App()
   app.use(require('../modules/twitter-feed'))
   app.use(require('../modules/twitter-parse'))
+  app.use(require('../modules/propose-coin'))
   app.use(ccxtTickers('bittrex'))
   app.use(ccxtBuy('bittrex'))
   app.use(ccxtSell('bittrex'))

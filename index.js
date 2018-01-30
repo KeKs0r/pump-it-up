@@ -23,12 +23,16 @@ app.use(require('./modules/twitter-parse'))
 // app.use(ccxtTickers('kucoin'))
 // app.use(ccxtBuy('kucoin'))
 // app.use(ccxtSell('kucoin'))
-// app.use(ccxtMonitor('kucoin'))
 
-app.use(ccxtTickers('yobit'))
-app.use(ccxtBuy('yobit'))
-app.use(ccxtSell('yobit'))
-app.use(ccxtMonitor('yobit'))
+// app.use(ccxtTickers('yobit'))
+// app.use(ccxtBuy('yobit'))
+// app.use(ccxtSell('yobit'))
+// app.use(ccxtMonitor('yobit'))
+
+app.use(ccxtTickers('cryptopia'))
+app.use(ccxtBuy('cryptopia'))
+app.use(ccxtSell('cryptopia'))
+app.use(ccxtMonitor('cryptopia'))
 
 if (process.env.NODE_ENV !== 'test') {
   // Dont Log while running tests

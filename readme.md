@@ -104,3 +104,7 @@ KUCOIN_BTC_AMOUNT=0.00005
 YOBIT_BTC_AMOUNT= 0.0001
 CRYPTOPIA_BTC_AMOUNT=0.0005
 ```
+
+## Testing
+
+In order to test Api Exchanges, it is possible to set the `BUY_LIMIT_TRESHHOLD=1.10` to a value below 1, to place Buy Orders below market value.
