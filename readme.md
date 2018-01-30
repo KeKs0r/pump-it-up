@@ -10,7 +10,7 @@ node index.js
 
 ## Modules
 
-Modules are modular pieces of code that can be added to the overall application.
+Modules are modular pieces of code that can be added to the overall application. They are within the `/modules` folder
 There are generalle 3 types of modules: Signals, CCXT(exchanges), Utility.
 
 ### Signals
