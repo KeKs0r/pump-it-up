@@ -56,6 +56,12 @@ function createCCXTBuy(name) {
       state.open_buy[name][order.symbol] = o
       checkOrder(order.symbol, state, em)
     })
+
+    // Cancel order after 5 Seconds
+    em.on(EXCHANGE_BUY_ORDER_PLACED, order => {
+      delayedCancel(order)
+    })
+
     em.on(balancesLoaded, balances => {
       const btc = balances['BTC']
       if (btc.open < BTC_AMOUNT) {
@@ -149,6 +155,17 @@ function createCCXTBuy(name) {
     } catch (e) {
       em.emit(state.__events.ERROR, e)
     }
+  }
+
+  function delayedCancel(order) {
+    setTimeout(async () => {
+      try {
+        const orderId = order.id
+        await exchange.cancelOrder(orderId)
+      } catch (e) {
+        console.error(e)
+      }
+    }, 1000 * 5)
   }
 
   return ccxtBuy

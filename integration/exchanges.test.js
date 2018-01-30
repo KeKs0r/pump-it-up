@@ -63,7 +63,7 @@ function testExchange(
       })
 
     exchange.has.fetchTrades &&
-      it.only('Fetch Trades', async () => {
+      it('Fetch Trades', async () => {
         const trades = await exchange.fetchTrades(pair)
         expect(trades).toBeTruthy()
         const trade = _.head(trades)
@@ -73,7 +73,7 @@ function testExchange(
       })
 
     exchange.has.fetchTickers
-    it.skip(`Get Tickers`, async () => {
+    it(`Get Tickers`, async () => {
       // Fetching all because thats what the application does
 
       const allTickers = await exchange.fetchTickers()
@@ -116,7 +116,7 @@ function testExchange(
           setTimeout(done, 2000)
         })
 
-        it('Create Sell Order', async () => {
+        it.skip('Create Sell Order', async () => {
           const price = roundSatoshi(ticker.bid * 3)
           const amount = Math.ceil(minOrderSize / price) + 1
           const sellOrder = await exchange.createLimitSellOrder(
@@ -131,8 +131,8 @@ function testExchange(
   })
 }
 
-//testExchange('kucoin', 'KCS', 0.00005)
-//testExchange('bittrex', 'XRP', 0.0005)
+//testExchange('bittrex', 'XRP', 0.0005, true)
 //testExchange('binance', 'XRP', 0.002)
-testExchange('yobit', 'TRX', 0.0001)
+//testExchange('yobit', 'TRX', 0.0001)
+//testExchange('kucoin', 'KCS', 0.00005)
 //testExchange('cryptopia', 'DIVX', 0.0005)
