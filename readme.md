@@ -1,4 +1,4 @@
-# Git Management
+# Git management
 
 To update the application:
 
